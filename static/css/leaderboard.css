@@ -1,0 +1,242 @@
+/* Leaderboard Styles */
+.leaderboard-controls {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.leaderboard-controls .field {
+  margin-bottom: 15px;
+}
+
+.leaderboard-controls .label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#leaderboard-table {
+  font-size: 0.9rem;
+  background-color: white;
+}
+
+#leaderboard-table th {
+  background-color: var(--color-tools-blue);
+  color: white;
+  font-weight: 600;
+  padding: 12px 8px;
+  border: none;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#leaderboard-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+#leaderboard-table th.sortable:hover {
+  background-color: rgba(102, 126, 234, 0.8);
+}
+
+#leaderboard-table th.sortable::after {
+  content: " ↕";
+  opacity: 0.5;
+  font-size: 0.8em;
+}
+
+#leaderboard-table th.sort-asc::after {
+  content: " ↑";
+  opacity: 1;
+}
+
+#leaderboard-table th.sort-desc::after {
+  content: " ↓";
+  opacity: 1;
+}
+
+#leaderboard-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+
+#leaderboard-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+#leaderboard-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+#leaderboard-table tbody tr:nth-child(even):hover {
+  background-color: #f0f0f0;
+}
+
+/* Rank column styling */
+.rank-cell {
+  font-weight: bold;
+  text-align: center;
+  min-width: 50px;
+}
+
+.rank-cell.rank-1 {
+  color: #ffd700;
+  font-size: 1.1em;
+}
+
+.rank-cell.rank-2 {
+  color: #c0c0c0;
+  font-size: 1.05em;
+}
+
+.rank-cell.rank-3 {
+  color: #cd7f32;
+  font-size: 1.05em;
+}
+
+/* Model name column */
+.model-cell {
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.model-cell a {
+  color: var(--color-tools-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.model-cell a:hover {
+  text-decoration: underline;
+}
+
+/* Source icons */
+.source-icon {
+  font-size: 1.2em;
+  cursor: help;
+}
+
+/* Type icons */
+.type-icon {
+  font-size: 1.1em;
+  cursor: help;
+}
+
+/* Accuracy columns */
+.accuracy-cell {
+  text-align: center;
+  font-weight: 500;
+  min-width: 80px;
+}
+
+.accuracy-high {
+  color: #28a745;
+}
+
+.accuracy-medium {
+  color: #ffc107;
+}
+
+.accuracy-low {
+  color: #dc3545;
+}
+
+/* Size and Date columns */
+.size-cell, .date-cell {
+  text-align: center;
+  font-size: 0.85em;
+  color: #666;
+}
+
+/* Search input styling */
+#search-input {
+  border: 2px solid var(--color-tools-blue);
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+#search-input:focus {
+  border-color: var(--color-tools-blue);
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* Filter dropdowns */
+.select select {
+  border-color: var(--color-tools-blue);
+  border-radius: 5px;
+}
+
+.select select:focus {
+  border-color: var(--color-tools-blue);
+  box-shadow: 0 0 0 0.125em rgba(102, 126, 234, 0.25);
+}
+
+/* Loading state */
+.loading-cell {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .leaderboard-controls .columns {
+    flex-direction: column;
+  }
+  
+  #leaderboard-table {
+    font-size: 0.8rem;
+  }
+  
+  #leaderboard-table th,
+  #leaderboard-table td {
+    padding: 8px 6px;
+  }
+  
+  .model-cell {
+    max-width: 150px;
+  }
+}
+
+/* Custom tooltip styles */
+.tooltip {
+  position: relative;
+  cursor: help;
+}
+
+.tooltip::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 1000;
+}
+
+.tooltip:hover::before {
+  opacity: 1;
+} 

@@ -1,0 +1,2634 @@
+[
+  {
+    "data_id": "0",
+    "problem": "Let $a, b, c, d > 0$ such that $a \\leq b \\leq c \\leq d$ and $abcd = 1$. Determine the minimal constant $C$ such that the following inequality holds for all $a, b, c, d$:\n\n$$(a + 1)(d + 1)-\\frac {3}{4d^3} \\geq 2C.$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "1",
+    "problem": "Let $a, b, c$ be positive real numbers. Find the largest positive constant $C$ such that the inequality below holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{a}{(b+c)^2}+\\frac{b}{(c+a)^2}+\\frac{c}{(a+b)^2} \\geq \\frac{C}{a+b+c}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "2",
+    "problem": "Let $a, b, c$ be real numbers such that $0 < a \\leq b \\leq c$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the given constraints:\n$$\n(a+b)(c+a)^2 \\geq C a b c\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "3",
+    "problem": "Let $a, b, c > 0$ such that $a+b+c=1$. Determine the maximal constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{1+a+b}{2+c}+\\frac{1+b+c}{2+a}+\\frac{1+c+a}{2+b} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "4",
+    "problem": "Let $a, b, c$ be the lengths of the sides of a triangle. Find the largest constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the triangle inequalities:\n$$\na^2 b(a-b) + b^2 c(b-c) + c^2 a(c-a) \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "5",
+    "problem": "Let $a, b, c \\geq 0$ and $a+b+c=1$. Determine the minimal constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{a}{\\sqrt{b^2+3 c}}+\\frac{b}{\\sqrt{c^2+3 a}}+\\frac{c}{\\sqrt{a^2+3 b}} \\geq \\frac{1}{\\sqrt{1+2C a b c}}.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "6",
+    "problem": "Let $a$ and $b$ be non-negative real numbers such that $a \\geq b$. Determine the largest constant $C$ such that the following inequality holds for all $a \\geq b \\geq 0$:\n$$\na + \\frac{1}{b(a-b)} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "7",
+    "problem": "Let $0 < a < b$ and $x_i \\in [a, b]$. Determine the largest constant $C$ such that the following inequality holds for all $x_i$:\n\n$$\n\\left(x_1+x_2+\\ldots+x_n\\right)\\left(\\frac{1}{x_1}+\\frac{1}{x_2}+\\ldots+\\frac{1}{x_n}\\right) \\leq \\frac{n^2(a+b)^2}{Cab}.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "8",
+    "problem": "Let $a, b, c > 0$ satisfy the condition $\\sum \\frac{1}{a^2+1} = \\frac{1}{2}$. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c$:\n$$\n\\sum \\frac{1}{a^3+2} \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "9",
+    "problem": "Let $a, b, c$ be positive real numbers. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{(2 a+b+c)^2}{2 a^2+(b+c)^2}+\\frac{(2 b+a+c)^2}{2 b^2+(a+c)^2}+\\frac{(2 c+a+b)^2}{2 c^2+(a+b)^2} \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "10",
+    "problem": "Let $a, b, c > 0$ such that $abc = 8$. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{a^2}{\\sqrt{\\left(1+a^3\\right)\\left(1+b^3\\right)}}+\\frac{b^2}{\\sqrt{\\left(1+b^3\\right)\\left(1+c^3\\right)}}+\\frac{c^2}{\\sqrt{\\left(1+c^3\\right)\\left(1+a^3\\right)}} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "11",
+    "problem": "Let $a_1, a_2, \\ldots, a_n > 0$ such that $a_1 + a_2 + \\ldots + a_n < 1$. Determine the minimal constant $C$ such that the following inequality holds for all $a_1, a_2, \\ldots, a_n$:\n\n$$\n\\frac{a_1 \\cdot a_2 \\ldots a_n \\left(1 - a_1 - a_2 - \\ldots - a_n\\right)}{\\left(a_1 + a_2 + \\ldots + a_n\\right)\\left(1-a_1\\right)\\left(1-a_2\\right) \\ldots \\left(1-a_n\\right)} \\leq C\\frac{3}{n^{n-1}}.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "12",
+    "problem": "Let $a, b, c > 0$ such that $a+b+c=1$. Determine the maximal constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{a^2+a b}{1-a^2}+\\frac{b^2+b c}{1-b^2}+\\frac{c^2+c a}{1-c^2} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "13",
+    "problem": "Let $a, b, c, x, y, z$ be positive real numbers such that $a+x \\geq b+y \\geq c+z$ and $a+b+c = x+y+z$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c, x, y, z$ satisfying the given conditions:\n$$\na y + b x \\geq 3C(a c + x z).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "14",
+    "problem": "For arbitrary real numbers $a, b, c$, find the largest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}$:\n$$\n\\sqrt{a^2+(1-b)^2}+\\sqrt{b^2+(1-c)^2}+\\sqrt{c^2+(1-a)^2} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "15",
+    "problem": "Let $x, y, z$ be positive real numbers. Find the largest constant $C$ such that the following inequality holds for all $x, y, z \\in \\mathbb{R}^{+}$:\n$$\n\\left(x^2-y z\\right)^2 \\geq C\\left(x z-y^2\\right)\\left(x y-z^2\\right)\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "16",
+    "problem": "Let $a, b, c$ be positive real numbers. Find the largest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{a^3}{b^2}+\\frac{b^3}{c^2}+\\frac{c^3}{a^2} \\geq C\\left(\\frac{a^2}{4b}+\\frac{b^2}{4c}+\\frac{c^2}{4a}\\right)\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "17",
+    "problem": "Let $a, b, c \\in \\mathbb{R}^{+}$ such that $a + b + c = 1$. Determine the minimal constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{a}{a+bc} + \\frac{b}{b+ac} + \\frac{\\sqrt{abc}}{c+ab} \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "18",
+    "problem": "Let $m, n$ be natural numbers. Find the smallest constant $C$ such that for all real numbers $x$ and $y$, the following inequality holds:\n$$\n\\sin^{2m} x \\cdot \\cos^{2n} y \\leq C\\frac{3m^n n^n}{(m+n)^{m+n}}.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "19",
+    "problem": "For $a, b, c > 0$, find the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\left\\{\\left(a^2-a b+b^2\\right)^2+\\left(b^2-b c+c^2\\right)^2+\\left(c^2-c a+a^2\\right)^2+3\\right\\}\\left(\\frac{1}{a b}+\\frac{1}{b c}+\\frac{1}{c a}\\right) \\geq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "20",
+    "problem": "For $a, b > 0$, find the minimal constant $C$ such that the following inequality holds for all $a, b$:\n$$\n\\frac{1}{2}(a+b)^2 + C(a+b) \\geq a \\sqrt{b} + b \\sqrt{a}.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "21",
+    "problem": "Let $x, y, z > 0$ such that $x + y + z = xyz$. Find the smallest constant $C$ such that the following inequality holds for all $x, y, z$ satisfying the given constraint:\n$$\n(x-1)(y-1)(z-1) \\leq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "22",
+    "problem": "Let $a, b, c > 0$. Find the smallest constant $C$ such that the following inequality holds for all positive $a, b, c$:\n$$\n4Cabc(a b+b c+c a) \\geq\\left(a^2+b^2+c^2\\right)(a+b-c)(b+c-a)(c+a-b)\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "23",
+    "problem": "For all $a, b, c > 0$ satisfying $a+b+c=2$, determine the largest constant $C$ such that the following inequality holds:\n$$\n\\frac{a}{1-a} \\cdot \\frac{b}{1-b} \\cdot \\frac{c}{1-c} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "24",
+    "problem": "Let $a, b, c \\geq 0$ satisfy $ab + bc + ca = 1$. Determine the minimal constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\sum \\frac{ab}{(a+b)(c^2+1)} \\leq \\frac{C}{a+b+c}.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "25",
+    "problem": "Find the largest constant $C$ such that for all real numbers $x, y, z$, the following inequality holds:\n$$\n\\frac{x^2-y^2}{2 x^2+1}+\\frac{y^2-z^2}{2 y^2+1}+\\frac{z^2-x^2}{2 z^2+1} \\geq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "26",
+    "problem": "Let $a_1, a_2, a_3, \\ldots, a_n$ be $n$ real numbers all greater than 1, such that $\\left|a_k-a_{k+1}\\right| \\leq 1$ for $1 \\leq k \\leq n-1$. Find the smallest constant $C$ such that the following inequality holds for all such sequences:\n$$\n\\frac{a_1}{a_2}+\\frac{a_2}{a_3}+\\cdots+\\frac{a_n}{a_1} \\leq Cn-1.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "27",
+    "problem": "Let $a_1, a_2, \\ldots, a_n$ be real numbers and $S$ be a non-empty subset of $\\{1,2, \\ldots, n\\}$. Find the largest constant $C$ such that the following inequality holds for all $a_1, a_2, \\ldots, a_n$ and $S$:\n$$\n2C \\left(\\sum_{i \\in S} a_i\\right)^2 \\leq \\sum_{1 \\leq i \\leq j \\leq n}\\left(a_i+\\cdots+a_j\\right)^2\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "28",
+    "problem": "Let $a_1, a_2, \\ldots, a_n$ be positive real numbers. Determine the minimal constant $C$ such that the following inequality holds for all $a_1, a_2, \\ldots, a_n$:\n\n$$\n\\left(a_1+\\ldots+a_n\\right)^2 \\leq C\\left(1^2 a_1^2+2^2 a_2^2+\\ldots+n^2 a_n^2\\right)\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "29",
+    "problem": "Let $x, y, z > 0$ such that $x+y+z=1$. Determine the minimal constant $C$ such that the following inequality holds for all $x, y, z$:\n\n$$\nx y(y+4 z)+y z(z+4 x)+z x(x+4 y) \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "30",
+    "problem": "Given $a, b, c > 0$ such that $ab + bc + ca = abc$, find the smallest constant $C$ such that the following inequality holds for all $a, b, c$:\n$$\n\\frac{1}{a+3b+2c} + \\frac{1}{b+3c+2a} + \\frac{1}{c+3a+2b} \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "31",
+    "problem": "Let $ABCD$ be a cyclic quadrilateral. Determine the smallest constant $C$ such that the following inequality holds if and only if $AB \\cdot BC = 2AD \\cdot DC$:\n$$\nBD^2 \\leq C \\cdot AC^2\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "32",
+    "problem": "Let $n$ be a natural number such that $n \\geq 2$. Find the largest constant $C$ such that the following inequality holds for all $n$:\n$$\n\\frac{1}{n+1}\\left(1+\\frac{1}{3}+\\cdots+\\frac{1}{2n-1}\\right) \\geq C \\cdot \\frac{1}{n}\\left(1+\\frac{1}{2}+\\cdots+\\frac{1}{n}\\right).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "33",
+    "problem": "Let $a, b, c$ be positive real numbers. Determine the minimal constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\na+b+c+\\sqrt{a^2+b^2+c^2} \\leq C \\cdot \\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\cdot \\left(a^2+b^2+c^2\\right)\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "34",
+    "problem": "Let $a, b, c$ be the side lengths of a triangle. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the triangle inequality:\n$$\n\\frac{b+c}{a}+\\frac{c+a}{b}+\\frac{a+b}{c}+\\frac{(b+c-a)(c+a-b)(a+b-c)}{a b c} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "35",
+    "problem": "Let $P$ be a point inside a triangle $ABC$, and let $d_a, d_b, d_c$ be the distances from point $P$ to the triangle's sides. Determine the largest constant $C$ such that the following inequality holds for all points $P$ inside the triangle:\n\n$$\nd_a \\cdot h_a^2 + d_b \\cdot h_b^2 + d_c \\cdot h_c^2 \\geq C \\cdot (d_a + d_b + d_c)^3\n$$\n\nwhere $h_a, h_b, h_c$ are the altitudes of the triangle.",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "36",
+    "problem": "Let $a, b, c$ be distinct real numbers. Find the largest constant $C$ such that the following inequality holds for all distinct $a, b, c \\in \\mathbb{R}$:\n\n$$\n\\begin{aligned}\n& \\left|\\frac{b-c}{c-a}\\right|(|a-b|+|b-c|)\\left|+\\left|\\frac{c-a}{a-b}\\right|(|b-c|+|c-a|)\\right|+\\left|\\frac{a-b}{b-c}\\right|(|c-a|+|a-b|) \\\\\n& +|a-b\\|b-c\\| c-a|+1 \\geq C \\sqrt{|a-b\\|b-c\\| c-a|}\n\\end{aligned}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "37",
+    "problem": "Let $a, b, c > 0$ such that $a + b + c = abc$. Find the largest  constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the given constraint:\n$$\n\\frac{a^2}{b^2} + \\frac{b^2}{c^2} + \\frac{c^2}{a^2} \\geq 2C \\sqrt{a^2 + b^2 + c^2}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "38",
+    "problem": "Find the largest constant $C$ such that for all real numbers $a, b, c$, the following inequality holds:\n$$\na(b-c)^4+b(a-c)^4+c(a-b)^4 \\geq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "39",
+    "problem": "Let $x, y, z \\in \\mathbb{R}$ satisfy the following constraints:\n$$\n\\left\\{\\begin{array}{r}\nx^2+x y+y^2=16 ; \\\\\ny^2+y z+z^2=3 ;\n\\end{array}\\right.\n$$\n\nFind the smallest constant $C$ such that the following inequality holds for all $x, y, z$ satisfying the constraints:\n$$\nx y+y z+z x \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "40",
+    "problem": "Let $x, y, z$ be three non-negative reals such that $xyz = x + y + z$. Find the largest constant $C$ such that the following inequality holds for all $x, y, z$ satisfying the given constraint:\n$$\nxy + yz + zx \\geq C + \\sqrt{x^2+1} + \\sqrt{y^2+1} + \\sqrt{z^2+1}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "41",
+    "problem": "Let $\\left(a_n\\right)_{n \\geq 0}$ be a sequence of real numbers such that for all $n \\geq 0$,\n\n$$\na_{n+1} \\geq a_n^2 + \\frac{1}{5}\n$$\n\nDetermine the maximal constant $C$ such that the following inequality holds for all $n \\geq 5$:\n\n$$\n\\sqrt{a_{n+5}} \\geq a_{n-5}^2 + C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "42",
+    "problem": "Let $x, y, z$ be real numbers such that $0 \\leq x, y, z \\leq 1$. Find the smallest constant $C$ such that the following inequality holds for all $x, y, z$ in the given domain:\n$$\n\\frac{x}{y+z+1}+\\frac{y}{z+x+1}+\\frac{z}{x+y+1} \\leq 3C -(1-x)(1-y)(1-z).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "43",
+    "problem": "Let $a, b, c$ be real numbers such that $a+b+c=1$. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the given constraint:\n$$\n\\frac{11 a-2}{1+a^2}+\\frac{11 b-2}{1+b^2}+\\frac{11 c-2}{1+c^2} \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "44",
+    "problem": "Given positive reals $a, b, c$, find the largest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{(a+b+c)^2}{ab+bc+ca} \\geq C \\cdot \\frac{(a+b+c)^2}{ab+bc+ca} \\cdot \\left(\\frac{b}{a+b}+\\frac{c}{b+c}+\\frac{a}{c+a}\\right) + 1.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "45",
+    "problem": "Let $a, b, c$ be positive real numbers greater than 1. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c > 1$:\n$$\n\\sqrt{a-1} + \\sqrt{b-1} + \\sqrt{c-1} \\leq 3C \\sqrt{c(ab+1)}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "46",
+    "problem": "Let $a, b, c, d, e, f \\in \\mathbb{R}$ with $ab+bc+cd+de+ef=1$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c, d, e, f$ satisfying the given constraint:\n$$\na^2+b^2+c^2+d^2+e^2+f^2 \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "47",
+    "problem": "Let $a, b, c$ be positive numbers. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{a b c(a b+a c+b c)^2}{\\left(a^2+b^2+c^2\\right)^2} \\geq 2C(a+b-c)(a+c-b)(b+c-a).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "48",
+    "problem": "Let $a, b, c \\in \\mathbb{R}_{+}$. Find the largest constant $C$ such that the following inequality holds for all positive $a, b, c$:\n$$\n\\sum a \\frac{b^2+c^2}{a^2+bc} \\geq C \\sum 3a\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "49",
+    "problem": "Let $a, b, c \\in \\mathbb{R}$ such that $a + 2b + 3c = 2$ and $2ab + 3ac + 6bc = 1$. Determine the minimal constants $C$ such that the following inequalities hold for all $a$ satisfying the given constraints:\n$$\na \\leq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "50",
+    "problem": "Find the smallest constant $C$ such that for all non-negative real numbers $a, b, c$, the following inequality holds:\n$$\n\\sqrt{\\frac{a b+b c+c a}{3}} \\leq C \\cdot \\sqrt[3]{\\frac{(a+b)(b+c)(c+a)}{2}}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "51",
+    "problem": "Let $a_1, a_2, \\ldots, a_n$ be real numbers such that $a_1 + a_2 + \\cdots + a_n \\geq n$ and $a_1^2 + a_2^2 + \\cdots + a_n^2 \\geq n^2$. Find the largest  constant $C$ such that the following inequality holds:\n$$\n\\max(a_1, a_2, \\ldots, a_n) \\geq C\n$$\nfor all $a_1, a_2, \\ldots, a_n$ satisfying the given constraints.",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "52",
+    "problem": "Let $x_1, x_2, \\cdots, x_n$ be real numbers in the interval $[-1, 1]$ such that $\\sum_{i=1}^{n} x_i^3 = 0$. Find the smallest constant $C$ such that the following inequality holds:\n$$\n\\sum_{i=1}^{n} x_i \\leq Cn.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "53",
+    "problem": "Let $a, b, c$ be the side lengths of a triangle. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\left|\\sqrt{\\frac{a}{b}}-\\sqrt{\\frac{b}{a}}+\\sqrt{\\frac{b}{c}}-\\sqrt{\\frac{c}{b}}+\\sqrt{\\frac{c}{a}}-\\sqrt{\\frac{a}{c}}\\right| \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "54",
+    "problem": "Let $a, b, c > 0$ satisfy $a + b + c = 3$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n$$\n\\sqrt[3]{a^2 + ab + bc} + \\sqrt[3]{b^2 + bc + ca} + \\sqrt[3]{c^2 + ca + ab} \\geq C(ab + bc + ca).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "55",
+    "problem": "For positive reals $x, y, z$, determine the largest constant $C$ such that the following inequality holds for all $x, y, z \\in \\mathbb{R}^{+}$:\n\n$$\n\\sum_{cyc} \\frac{x(y+z)^2}{2x+y+z} + \\frac{9}{2}\\left(\\frac{x+y+z}{xy+yz+zx}\\right)^2 \\geq C + \\frac{9}{2(xy+yz+zx)}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "56",
+    "problem": "Find the smallest constant $C$ such that for all real numbers $a, b, c$, the following inequality holds:\n$$\na^4+b^4+c^4+2a+2b+2c+C \\geq a^2+b^2+c^2+2a^2c+2b^2a+2c^2b\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "57",
+    "problem": "Let $a, b, c$ be positive real numbers such that:\n\n$$\n\\left\\{\\begin{array}{l}\na+b \\leq c+1 \\\\\nb+c \\leq a+1 \\\\\nc+a \\leq b+1\n\\end{array}\\right.\n$$\n\nFind the minimal constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the given constraints:\n\n$$\na^2+b^2+c^2 \\leq 2 (a b c + C).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "58",
+    "problem": "Let $P$ be a point in $\\triangle ABC$, and denote $\\angle PAB = \\alpha$, $\\angle PBC = \\beta$, $\\angle PCA = \\gamma$. Find the largest constant $C$ such that the following inequality holds for all points $P$ within the triangle:\n$$\n\\cot \\alpha + \\cot \\beta + \\cot \\gamma \\geq C + \\cot A + \\cot B + \\cot C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "59",
+    "problem": "Let $x_1, x_2, \\ldots, x_n$ be positive numbers satisfying:\n$$\n\\frac{1}{x_1+1998}+\\frac{1}{x_2+1998}+\\cdots+\\frac{1}{x_n+1998}=\\frac{1}{1998}.\n$$\nDetermine the largest constant $C$ such that the following inequality holds for all $x_1, x_2, \\ldots, x_n$:\n$$\n\\frac{\\sqrt[n]{x_1 x_2 \\cdots x_n}}{n-1} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "60",
+    "problem": "Let $a, b, c$ be positive real numbers such that $ab + bc + ca \\leq 3abc$. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the given constraint:\n$$\n\\sqrt{\\frac{a^2+b^2}{a+b}}+\\sqrt{\\frac{b^2+c^2}{b+c}}+\\sqrt{\\frac{c^2+a^2}{c+a}}+3 \\leq C(\\sqrt{a+b}+\\sqrt{b+c}+\\sqrt{c+a}).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "61",
+    "problem": "Let $a, b, c > 0$. Determine the largest constant $C$ such that the following inequality holds for all positive $a, b, c$:\n\n$$\n\\frac{4 a}{a+b}+\\frac{4 b}{b+c}+\\frac{4 c}{c+a}+\\frac{a b^2+b c^2+c a^2+a b c}{a^2 b+b^2 c+c^2 a+a b c} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "62",
+    "problem": "Let $x, y, z > 0$. Determine the minimal constant $C$ such that the following inequality holds for all $x, y, z$:\n\n$$\n\\frac{x y z}{(1+3 x)(x+8 y)(y+9 z)(z+6)} \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "63",
+    "problem": "Let $a, b, c$ be positive real numbers such that $abc = 1$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n$$\n\\frac{1}{a^5(b+2c)^2} + \\frac{1}{b^5(c+2a)^2} + \\frac{1}{c^5(a+2b)^2} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "64",
+    "problem": "Find the largest constant $C$ such that for all real numbers $a, b, c$, the following inequality holds:\n$$\n\\frac{(a-b)^2}{(b-c)^2}+\\frac{(b-c)^2}{(c-a)^2}+\\frac{(c-a)^2}{(a-b)^2} \\geq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "65",
+    "problem": "Given positive real numbers $a, b, c$ satisfying $abc = 1$, determine the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{3}{(1+a)^2}+\\frac{3}{(1+b)^2}+\\frac{3}{(1+c)^2}+\\frac{3}{a+b+c+1} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "66",
+    "problem": "In an isosceles triangle $\\triangle ABC$ with $\\overline{AB} = \\overline{AC}$, the two tangents to the circumcircle of the triangle at $A$ and $B$ intersect at $D$. Determine the minimal constant $C$ such that the following inequality holds for all such triangles:\n$$\n\\angle DCB \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "67",
+    "problem": "Let $a, b, c \\in \\mathbb{R}$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n$$\n(a+b)^4+(b+c)^4+(c+a)^4 \\geq C(a^4+b^4+c^4)\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "68",
+    "problem": "Let $n$ be an odd integer greater than 3 and $x_1, x_2, \\ldots, x_n \\in \\mathbb{R}$. Determine the minimal constant $C$ such that the following inequality holds for all $x_1, x_2, \\ldots, x_n$:\n\n$$\nC (n-1)\\max \\left(x_1^2, x_2^2, \\ldots, x_n^2\\right)+\\left(x_1+x_2+\\ldots+x_n\\right)^2 \\geq x_1^2+x_2^2+\\ldots+x_n^2\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "69",
+    "problem": "Let $a, b, c > 0$ such that $abc = 1$. Determine the minimal constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\left(\\frac{a+b+c}{3}\\right)^{C} \\geq \\frac{a^2+b^2+c^2}{3}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "70",
+    "problem": "Let $x \\geq y \\geq z \\geq 0$. Find the largest constant $C$ such that the following inequality holds for all $x, y, z$:\n$$\n\\frac{x^2 y}{z}+\\frac{y^2 z}{x}+\\frac{z^2 x}{y} \\geq C(x^2+y^2+z^2)\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "71",
+    "problem": "Let $0 \\leq x \\leq 1$ and $n \\in \\mathbb{N}$. Find the smallest constant $C$ such that the following inequality holds for all $x$ and $n$:\n$$\n\\left(1-x+\\frac{x^2}{2}\\right)^n-(1-x)^n \\leq Cx.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "72",
+    "problem": "For any acute triangle \\( \\triangle ABC \\) with sides \\( a, b, c \\), circumradius \\( R \\), and inradius \\( r \\), find the largest constant \\( C \\) such that the following inequality holds:\n$$\na + b + c \\geq CR+2r.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "73",
+    "problem": "Let $P$ be a point inside the triangle $ABC$, and let $l = PA$, $m = PB$, and $n = PC$. Determine the largest constant $C$ such that the following inequality holds for all points $P$ inside the triangle:\n\n$$\n(l m + m n + n l)(l + m + n) \\geq C(a^2 l + b^2 m + c^2 n).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "74",
+    "problem": "Let $ABC$ be an acute triangle with circumcenter $O$ and circumradius $R$. If $AO$ intersects the circumcircle of $OBC$ at $D$, $BO$ intersects the circumcircle of $OCA$ at $E$, and $CO$ intersects the circumcircle of $OAB$ at $F$, find the largest constant $C$ such that the following inequality holds for all such triangles:\n$$\nO D \\cdot O E \\cdot O F \\geq C R^3.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "75",
+    "problem": "Let $a, b, c$ be the sides of a triangle. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the triangle inequality:\n$$\n \\sqrt{C a b c+(a+b-c)(b+c-a)(a+c-b)}+\\sum_{cyc} a \\sqrt{a} \\geq \\sum_{cyc} a(\\sqrt{b}+\\sqrt{c}).\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "76",
+    "problem": "Let $a_1, \\ldots, a_n, b_1, \\ldots, b_n > 0$. Find the smallest constant $C$ such that the following inequality holds for all positive $a_i$ and $b_i$:\n$$\n\\sum_{i=1}^n \\frac{a_i b_i}{a_i+b_i} \\leq C \\cdot \\frac{\\left(\\sum_{i=1}^n a_i\\right)\\left(\\sum_{i=1}^n b_i\\right)}{\\sum_{i=1}^n\\left(a_i+b_i\\right)}\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "77",
+    "problem": "Let $a, b, c > 0$ such that $a+b+c=3$. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\na b c + \\frac{17}{a b + b c + c a} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "78",
+    "problem": "Let $a, b, c \\in \\left[\\frac{1}{3}, 3\\right]$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c$ in the given range:\n$$\n\\frac{a}{a+b}+\\frac{b}{b+c}+\\frac{c}{c+a} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "79",
+    "problem": "Let $a, b, c$ be positive real numbers such that $abc = 1$. Find the smallest constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{a^2 b^2}{a^7+b^7+a^2 b^2}+\\frac{b^2 c^2}{b^7+c^7+b^2 c^2}+\\frac{c^2 a^2}{c^7+a^7+c^2 a^2} \\leq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "80",
+    "problem": "Let $a, b, c$ be the side lengths of a triangle. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c$ satisfying the triangle inequalities:\n$$\n\\frac{a}{3 a-b+c}+\\frac{b}{3 b-c+a}+\\frac{c}{3 c-a+b} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "81",
+    "problem": "Let $a, b, c, d$ be positive real numbers such that $a+b+c+d=4$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c, d$ satisfying the given constraint:\n$$\n\\frac{a}{1+b^2 c}+\\frac{b}{1+c^2 d}+\\frac{c}{1+d^2 a}+\\frac{d}{1+a^2 b} \\geq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "82",
+    "problem": "Let $a, b, c > 0$ and $a^2 + 2b + c^2 = 1$. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n$$\n2(a^2 + b^2 + c^2) - (ab + bc + ca) \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "83",
+    "problem": "Let $x, y, z > 0$. Find the largest constant $C$ such that the following inequality holds for all positive $x, y, z$:\n$$\n\\sum_{\\text{cyc}} \\frac{x^3+2}{2+x+y+z^3} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "84",
+    "problem": "Let $x, y, z$ be real numbers such that $x+y+z=xyz$. Find the largest constant $C$ such that the following inequality holds for all $x, y, z$ satisfying the given constraint:\n$$\n\\frac{1}{1+x^2}+\\frac{1}{1+y^2}+\\frac{1}{1+z^2} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "85",
+    "problem": "Find the largest constant $C$ such that for all real numbers $x$, the following inequality holds:\n$$\nx^2+\\frac{1}{6(1+|x-2|)} \\geq C\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "86",
+    "problem": "Let $x_1, x_2, \\ldots, x_n$ be positive real numbers such that $x_1 + x_2 + \\cdots + x_n = 1$. Find the smallest constant $C$ such that the following inequality holds for all $x_1, x_2, \\ldots, x_n$:\n\n$$\n\\sum_{i=1}^n \\frac{\\min \\left\\{x_{i-1}, x_i\\right\\} \\cdot \\max \\left\\{x_i, x_{i+1}\\right\\}}{x_i} \\leq C\n$$\n\nwhere $x_0 = x_n$ and $x_{n+1} = x_1$.",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "87",
+    "problem": "Let $a, b, c$ be positive real numbers such that $a+b+c=ab+bc+ca$ and $n \\geq 3$. Find the largest constant $C$ such that the following inequality holds for all $a, b, c$ and $n$:\n\n$$\n\\frac{a^2}{b}+\\frac{b^2}{c}+\\frac{c^2}{a}+\\frac{3n}{a^2+b^2+c^2} \\geq C+n.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "88",
+    "problem": "Let $a, b, c \\geq 0$ and $a^2 + b + c^2 = 1$. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c$:\n\n$$\n\\frac{1}{1+a^2} + \\frac{6}{5(1+b^2)} + \\frac{1}{1+c^2} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "89",
+    "problem": "Let $a, b, c$ be positive real numbers. Determine the largest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{a}{b+c}+\\frac{b}{c+a}+\\frac{32}{9}\\left(\\frac{c}{a+b}\\right)^2 \\geqslant C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "90",
+    "problem": "There are $2022^2$ integers $a_{i j}(1 \\leq i, j \\leq 2022)$, every $a_{i j} \\in[-2022,2022]$. Find the largest constant $C$ such that the following inequality holds for all $a_{i j}$:\n\n$$\n\\prod_{i=1}^{2022}\\left(\\sum_{j=1}^{2022} a_{i j}^2\\right) \\geq C \\left(\\sum_{j=1}^{2022} \\prod_{i=1}^{2022} a_{i j}\\right)^2\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "91",
+    "problem": "Let $x, y, z$ be complex numbers such that $|x+2y+3z| = 1$. Determine the largest constant $C$ such that the following inequality holds for all $x, y, z$:\n\n$$\nx^2 + y^2 + z^2 + \\left|x^2 + y^2 + z^2\\right| \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "92",
+    "problem": "Let $a, b, c$ be positive real numbers. Find the largest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{a}{b+C c}+\\frac{b}{c+C a}+\\frac{c}{a+C b} \\geq 1.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "93",
+    "problem": "Let $a, b, c$ be positive real numbers. Find the largest constant $C$ such that the following inequality holds for all $a, b, c \\in \\mathbb{R}^{+}$:\n$$\n\\frac{a}{\\sqrt{b^2+b c+c^2}}+\\frac{b}{\\sqrt{a^2+a c+c^2}}+\\frac{c}{\\sqrt{a^2+a b+b^2}} \\geq C.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "94",
+    "problem": "Let $a_1, a_2, \\ldots, a_n$ be non-negative real numbers such that $\\prod a_1 = \\lambda^n$. Determine the minimal constant $C$ such that the following inequality holds for all $a_1, a_2, \\ldots, a_n$:\n\n$$\n\\prod_{c y c}\\left(a_1^2-a_1+1\\right) \\geq \\sqrt{\\left(\\frac{1+\\lambda^4}{C}\\right)^n}.\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "95",
+    "problem": "Let $x, y, z$ be positive numbers such that $xy + yz + zx = 1$. Find the largest constant $C$ such that the following inequality holds for all $x, y, z$ satisfying the given constraint:\n$$\n\\frac{x^3}{1+9y^2zx} + \\frac{y^3}{1+9z^2xy} + \\frac{z^3}{1+9x^2yz} \\geq C(x+y+z)^3\n$$",
+    "type": "bound",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "96",
+    "problem": "Let $a, b, c \\in \\mathbb{R}^{+}$. Consider the following inequality:\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} \\quad () \\quad \\frac{c+2a}{c+b} + \\frac{a+2b}{a+c} + \\frac{b+2c}{b+a} \n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "97",
+    "problem": "Let $x, y, z \\in \\mathbb{R}_{+}$. Consider the following inequality:\n$$\n\\sqrt{x(y+1)} + \\sqrt{y(z+1)} + \\sqrt{z(x+1)} \\quad () \\quad 2 \\sqrt{(x+1)(y+1)(z+1)}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "98",
+    "problem": "Let $a, b, c > 0$ be positive real numbers such that $a + b + c = 1$. Consider the following inequality:\n$$\n\\frac{1+a+b}{2+c} + \\frac{1+b+c}{2+a} + \\frac{1+c+a}{2+b} \\quad () \\quad 2.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "99",
+    "problem": "Let $a, b, c > 0$ be positive real numbers such that $a + b + c = abc$. Consider the following inequality:\n$$\n\\frac{1}{\\sqrt{a^2+1}} + \\frac{1}{\\sqrt{b^2+1}} + \\frac{1}{\\sqrt{c^2+1}} \\quad () \\quad \\frac{5}{3}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "100",
+    "problem": "Let $a, b, c$ be side lengths of a triangle, and $\\beta$ is the angle between $a$ and $c$. Consider the following expressions:\n$$\n\\frac{b^2+c^2}{a^2} \\quad () \\quad \\frac{2 \\sqrt{3} c \\sin \\beta - a}{b+c} \n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "101",
+    "problem": "Let $a, b, c, d$ be positive real numbers. Consider the following inequality:\n$$\n\\frac{a^2+2b^2}{ab+b^2} + \\frac{b^2+2c^2}{bc+c^2} + \\frac{c^2+2d^2}{cd+d^2} \\quad () \\quad \\sqrt[3]{\\frac{54a}{a+d}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "102",
+    "problem": "Let $R$, $r$, and $s$ be the circumradius, inradius, and semiperimeter, respectively, of an acute-angled triangle. Consider the following inequality:\n$$\ns^2 \\quad () \\quad 2R^2 + 8Rr + 3r^2.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "103",
+    "problem": "Let $0 < a < b$ and $x_i \\in [a, b]$ for $i = 1, 2, \\ldots, n$. Consider the following inequality:\n$$\n\\left(x_1 + x_2 + \\ldots + x_n\\right)\\left(\\frac{1}{2x_1} + \\frac{1}{2x_2} + \\ldots + \\frac{1}{2x_n}\\right) \\quad () \\quad \\frac{n^2(a+b)^2}{4ab}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "104",
+    "problem": "Let $a, b, c > 0$ be positive real numbers such that $a^3 + b^3 + 3c = 5$. Consider the following expressions:\n$$\n\\sqrt{\\frac{a+b}{2c}} + \\sqrt{\\frac{b+c}{2a}} + \\sqrt{\\frac{c+a}{2b}} \\quad () \\quad \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "105",
+    "problem": "Let $a, b, c > 0$ be positive real numbers such that $\\sum \\frac{1}{a^2+1} = \\frac{1}{2}$. Consider the following inequality:\n$$\n\\sum \\frac{1}{a^3+3} \\quad () \\quad \\frac{1}{3}.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "106",
+    "problem": "Let $x, y, z > 0$ be positive real numbers such that $x + y + z = x y z$. Consider the following inequality:\n$$\n\\frac{x+y}{1+2z^2}+\\frac{y+z}{1+2x^2}+\\frac{z+x}{1+y^2} \\quad () \\quad \\frac{27}{2 x y z}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "107",
+    "problem": "Let $x, y, z > 1$ be real numbers such that $\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = 2$. Consider the following inequality:\n$$\n\\sqrt{2x+3y+z} \\quad () \\quad \\sqrt{x-1} + \\sqrt{y-1} + \\sqrt{z-1} .\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "108",
+    "problem": "Let $a_1, a_2, \\ldots, a_n > 0$ be positive real numbers such that $a_1 + a_2 + \\ldots + a_n < 1$. Consider the following inequality:\n$$\n\\frac{a_1 \\cdot a_2 \\ldots a_n\\left(1-a_1-a_2-\\ldots-a_n\\right)}{\\left(a_1+a_2+\\ldots+a_n\\right)\\left(1-a_1\\right)\\left(1-a_2\\right) \\ldots\\left(1-a_n\\right)} \\quad () \\quad \\frac{1}{n^{n-1}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "109",
+    "problem": "In the plane of the acute-angled triangle $\\triangle ABC$, let $L$ be a line such that $u, v, w$ are the lengths of the perpendiculars from $A, B, C$ respectively to $L$. Consider the following inequality:\n\n$$\nu^2 \\tan A + v^2 \\tan B + w^2 \\tan C \\quad () \\quad \\Delta\n$$\n\nwhere $\\Delta$ is the area of the triangle. Determine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "110",
+    "problem": "Let $1 \\geq x, y, z \\geq 0$. Consider the following inequality:\n$$\n\\sum_{cyc} \\frac{x}{7+z^3+y^3} \\quad () \\quad \\frac{1}{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "111",
+    "problem": "Let $x, y, z$ be vectors in $\\mathbb{R}^n$. Consider the following expressions:\n$$\n|x+y+z| + |x| + |2y| + |2z|  \\quad () \\quad |x+y| + |y+z| + |z+x|.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "112",
+    "problem": "Let $a, b, c, d > 0$ be positive real numbers such that \n$$\n\\frac{1}{1+a^4} + \\frac{1}{1+b^4} + \\frac{1}{1+c^4} + \\frac{1}{1+d^4} = 1.\n$$\nConsider the following expression:\n$$\na b c d \\quad () \\quad 2.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "113",
+    "problem": "Let $a, b, c, x, y, z \\in \\mathbb{R}$ be real numbers such that $a + b + c = 1$ and $x^2 + y^2 + z^2 = 1$. Consider the following expression:\n$$\na(x+b) + b(y+c) + c(z+a)  \\quad () \\quad 1.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "114",
+    "problem": "Let $a, b, c, d$ be positive real numbers such that $a b c d = 1$ and $a+b+c+d > \\frac{a}{b} + \\frac{b}{c} + \\frac{c}{d} + \\frac{d}{a}$. Consider the following expressions:\n$$\na+b+c+d \\quad () \\quad \\frac{b}{a} + \\frac{c}{b} + \\frac{d}{c} + \\frac{a}{d}.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "115",
+    "problem": "Let $a, b, c$ be positive real numbers such that $\\sum \\frac{1}{1+a^2} = 2$. Consider the following inequality:\n$$\na b c(a+b+c-2a b c) \\quad () \\quad \\frac{3}{2}.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "116",
+    "problem": "Let $x, y, z$ be positive real numbers. Consider the following inequality:\n$$\n\\left(x^2-y z\\right)^2 \\quad () \\quad \\frac{27}{8}\\left(x z-y^2\\right)\\left(x y-z^2\\right).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "117",
+    "problem": "Let $a, b, c > 0$. Consider the following inequality:\n$$\n\\frac{c}{a} + \\frac{a}{b+c} + \\frac{b}{c} \\quad () \\quad 2.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "118",
+    "problem": "Let $x, y, z \\in \\mathbb{R}^{+}$ be positive real numbers. Consider the following inequality:\n$$\n2\\left(x^2 y + y^2 z + z^2 x\\right)\\left(x y^2 + y z^2 + z x^2\\right) \\quad () \\quad x y z (x + y + z)^3.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "119",
+    "problem": "Let $a, b, c > 0$. Consider the following inequality:\n$$\n\\frac{b c}{a^2} + \\frac{c a}{b^2} + \\frac{a b}{c^2} + a b c \\quad () \\quad \\frac{a^7}{b^2 c^2} + \\frac{b^7}{a^2 c^2} + \\frac{c^7}{a^2 b^2} + \\frac{1}{a^2 b^2 c^2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "120",
+    "problem": "Let $x, y, z > 0$ be positive real numbers such that $x + y + z = xyz$. Consider the following inequality:\n$$\n(x-1)(y-1)(z-1) \\quad () \\quad 6\\sqrt{3} - 8.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "121",
+    "problem": "Let $a, b, c > 0$ be positive real numbers such that $(a+b)(b+c)(c+a) = 1$. Consider the following inequality:\n$$\n(a+b+c)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}\\right) \\quad () \\quad 3\\left(1+\\sqrt[3]{\\frac{1}{a b c}}\\right).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "122",
+    "problem": "Let $x_1, x_2, \\ldots, x_n > 0\\;(n\\geq 2)$ be positive real numbers such that\n$$\n\\frac{1}{1+x_1}+\\frac{1}{1+x_2}+\\ldots+\\frac{1}{1+x_n}=1.\n$$\nConsider the following inequality:\n$$\nx_1 x_2 \\ldots x_n \\quad () \\quad (n-1)^{n-1}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "123",
+    "problem": "Let $x, y, z \\geq -\\frac{3}{4}$ be real numbers such that $x + y + z = 1$. Consider the following inequality:\n$$\n\\frac{x}{2x^2+1} + \\frac{y}{y^2+3} + \\frac{z}{z^2+1} \\quad () \\quad 1.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "124",
+    "problem": "Let $a, b, c > 0$ be positive real numbers such that $a + b + c = 2$. Consider the following inequality:\n$$\n\\frac{a}{1-a} \\cdot \\frac{b}{1-b} \\cdot \\frac{c}{1-c} \\quad () \\quad 8.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "125",
+    "problem": "Given that $a, b, c \\geq 0$ satisfy $ab + bc + ca = 1$, consider the following inequality:\n$$\n\\sum \\frac{ab}{(a+b)(c^2+1)} \\quad () \\quad \\frac{5}{4(a+b+c)}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "126",
+    "problem": "For all real numbers $x, y, z$, consider the following expression:\n$$\n\\frac{x^2-y^2}{2 x^2+1}+\\frac{y^2-z^2}{2 y^2+2}+\\frac{z^2-x^2}{2 z^2+1}\\quad () \\quad 0.\n$$\n\nDetermine the correct inequality relation between the expression and 0.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "127",
+    "problem": "Let $a_1, a_2, a_3, \\ldots, a_n$ be $n$ real numbers all greater than 1, and such that $\\left|a_k - a_{k+1}\\right| \\leq 1$ for $1 \\leq k \\leq n-1$. Consider the following inequality:\n$$\n\\frac{a_1}{a_2} + \\frac{a_2}{a_3} + \\cdots + \\frac{a_n}{a_1} \\quad () \\quad 2n - 1.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "128",
+    "problem": "Let $a_1, a_2, \\ldots, a_n$ be positive real numbers. Consider the following inequality:\n$$\n\\left(a_1+\\ldots+a_n\\right)^2 \\quad () \\quad \\frac{\\pi^2}{6}\\left(1^2 a_1^2+2^2 a_2^2+\\ldots+n^2 a_n^2\\right).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "129",
+    "problem": "Let $a_1, a_2, a_3, \\ldots, a_n$ be real numbers with $n > 1$. Consider the following expression:\n$$\n\\sqrt{a_1^2+(1-a_2)^2} + \\sqrt{a_2^2+(1-a_3)^2} + \\ldots + \\sqrt{a_n^2+(1-a_1)^2} \\quad () \\quad \\frac{n}{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "130",
+    "problem": "Let $x, y, z > 0$ be positive real numbers such that $x + y + z = 1$. Consider the following inequality:\n$$\nxy(y + 4z) + yz(z + 4x) + zx(x + 4y) \\quad () \\quad \\frac{16}{27}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "131",
+    "problem": "Let $ABCD$ be a cyclic quadrilateral. Given that $AB \\cdot BC = 2AD \\cdot DC$, consider the following inequality:\n$$\n8BD^2 \\quad () \\quad 9AC^2.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "132",
+    "problem": "Let $a, b, c$ be positive numbers such that $(a+b)(b+c)(c+a) = 8$. Consider the following inequality:\n$$\n\\frac{a+b+c}{3} \\quad () \\quad \\sqrt[27]{\\frac{a^3+b^3+c^3}{3}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "133",
+    "problem": "Let $x, y, z \\in [0, 1)$. Consider the following inequality:\n$$\n\\frac{1}{1-x} + \\frac{1}{1-y} + \\frac{1}{1-z} \\quad () \\quad \\left(1 + \\frac{x+y+z}{3}\\right)\\left(\\frac{1}{1-xy} + \\frac{1}{1-yz} + \\frac{1}{1-zx}\\right).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "134",
+    "problem": "Let $P$ be a point inside a triangle $ABC$, and let $d_a, d_b, d_c$ be the distances from point $P$ to the triangle's sides. Consider the following inequality:\n\n$$\nd_a \\cdot h_a^2 + d_b \\cdot h_b^2 + d_c \\cdot h_c^2 \\quad () \\quad (d_a + d_b + d_c)^3\n$$\n\nwhere $h_a, h_b, h_c$ are the altitudes of the triangle. Determine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "135",
+    "problem": "Let $a, b, c \\in \\mathbb{R}_0^{+}$ be non-negative real numbers such that $ab + bc + ca = 1$. Consider the following inequality:\n$$\n\\frac{1}{2a+b} + \\frac{1}{b+c} + \\frac{1}{c+a} + \\frac{1}{a+2b+c} \\quad () \\quad 4.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "136",
+    "problem": "Let $a, b, c$ be distinct real numbers. Consider the following expression:\n\n$$\n\\begin{aligned}\n& \\left|\\frac{b-c}{c-a}\\right|(|a-b|+|b-c|)\\left|+\\left|\\frac{c-a}{a-b}\\right|(|b-c|+|c-a|)\\right|+\\left|\\frac{a-b}{b-c}\\right|(|c-a|+|a-b|) \\\\\n& +|a-b||b-c||c-a|+1 \\quad ()\\quad 8 \\sqrt{|a-b||b-c||c-a|}\n\\end{aligned}\n$$\n\nDetermine the correct inequality relation with $8 \\sqrt{|a-b||b-c||c-a|}$.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "137",
+    "problem": "Let $a, b, c, d \\in \\mathbb{R}$ such that $a^2 + b^2 + c^2 + d^2 = 1 + 5abcd$. Consider the following inequality:\n$$\na^2 + 3b^2 + 2c^2 + d^2 \\quad () \\quad \\frac{3}{5}.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "138",
+    "problem": "Let $a, b, c \\in \\mathbb{R}$. Consider the following inequality:\n$$\na(b-c)^4 + b(a-c)^4 + c(a-b)^4 \\quad () \\quad 0.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "139",
+    "problem": "Let $a, b, c > 0$ satisfy $\\frac{1}{a+b+1}+\\frac{1}{b+c+1}+\\frac{1}{c+a+1} \\geq 1$. Consider the following expressions:\n$$\na+b+c \\quad () \\quad ab+bc+ca + 1.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "140",
+    "problem": "Let $a, b, c$ be three non-negative real numbers. Consider the following inequality:\n$$\n\\frac{a}{b} + \\frac{b}{c} + \\frac{c}{a} \\quad () \\quad 3 \\sqrt{\\frac{a^2 + b^2 + c^2}{2ab + 4bc + ca}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "141",
+    "problem": "Let $\\left(a_n\\right)_{n \\geq 0}$ be a sequence of real numbers such that for all $n \\geq 0$,\n\n$$\na_{n+1} \\geq a_n^2+\\frac{1}{5}\n$$\n\nConsider the following inequality for all $n \\geq 5$:\n$$\n\\sqrt{a_{n+5}} \\quad () \\quad a_{n-5}^2.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "142",
+    "problem": "Let $a, b \\in \\mathbb{R}$ with $a \\neq 0$ and $b \\neq 0$. Consider the following inequality:\n$$\n\\frac{a}{b} + \\frac{b}{a} + \\sqrt{1 + \\frac{2ab}{a^2 + b^2}} \\quad () \\quad 3.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "143",
+    "problem": "Suppose $a, b, x, y$ are all real numbers and $x^2 + y^2 = 1$. Consider the following inequality:\n$$\n\\sqrt{a^2 x^2 + b^2 y^2} + \\sqrt{a^2 y^2 + b^2 x^2} \\quad () \\quad a + b .\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "144",
+    "problem": "Let $a, b, c, d, e, f \\in \\mathbb{R}$ such that $ab + bc + cd + de + ef = 1$. Consider the following expressions:\n$$\na^2 + b^2 + c^2 + d^2 + e^2 + f^2 \\quad () \\quad \\frac{1}{2 \\cos \\frac{\\pi}{7}}.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "145",
+    "problem": "Let $a, b, c$ be positive real numbers. Consider the following expressions:\n$$\n\\sqrt{\\frac{2 a}{a+b}} + \\sqrt{\\frac{ b}{2b+c}} + \\sqrt{\\frac{ c}{3c+a}} \\quad () \\quad \\frac{(a+b+c)^2}{a^2+b^2+c^2} .\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "146",
+    "problem": "Let $a, b, c \\in \\mathbb{R}_{+}$. Consider the following expressions:\n$$\n\\sum a \\frac{b^2+c^2}{a^2+bc} \\quad () \\quad  \\sum a.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "147",
+    "problem": "Let $a, b, c$ be positive real numbers such that $abc = 1$. Consider the following inequality:\n$$\n\\frac{a^{\\frac{2}{3}}}{\\sqrt{2b+c}} + \\frac{b^{\\frac{2}{3}}}{\\sqrt{3c+a}} + \\frac{c^{\\frac{2}{3}}}{\\sqrt{a+b}} \\quad () \\quad \\frac{5}{\\sqrt{2}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "148",
+    "problem": "Given sides of a triangle $a, b, c$, consider the following inequality:\n$$\n\\frac{a}{2b}+\\frac{b}{4c}+\\frac{c}{a} \\quad () \\quad \\frac{3a}{b+c}+\\frac{2b}{c+a}+\\frac{3c}{a+b}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "149",
+    "problem": "Let $a, b, c > 0$ and $n \\in \\mathbb{N}$ with $n \\geq 2$. Consider the following inequality:\n$$\n\\sqrt[n]{\\frac{a}{b+c}} + \\sqrt[n]{\\frac{b}{c+a}} + \\sqrt[n]{\\frac{c}{a+b}} \\quad () \\quad \\frac{n}{n-1} \\sqrt[n]{n-1}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "150",
+    "problem": "Let $a, b, c$ be non-negative real numbers. Consider the following inequality:\n$$\n\\sqrt{\\frac{2a b + b c + c a}{6}} \\quad () \\quad \\sqrt[3]{\\frac{(a+2b)(b+c)(3c+a)}{7}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "151",
+    "problem": "Let $a, b, c > 0$ such that $a^3 + b^3 = c^3$. Consider the following inequality:\n$$\na^2 + b^2 - c^2 \\quad () \\quad 6(c-a)(c-b).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "152",
+    "problem": "Let $a, b, x, y, z$ be positive real numbers. Consider the following inequality:\n$$\n\\frac{x}{3a y+b z}+\\frac{y}{a z+2b x}+\\frac{z}{a x+b y} \\quad () \\quad \\frac{4}{a+b}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "153",
+    "problem": "For non-negative reals $a, b, c$, consider the following inequality:\n$$\na^4\\left(a^2+b c\\right)+b^4\\left(b^2+a c\\right)+c^4\\left(c^2+a b\\right) \\quad () \\quad a^5(2b+c)+b^5(a+3c)+c^5(5a+b) .\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "154",
+    "problem": "Let $a, b, c \\in \\mathbb{R}$ such that $ab + bc + ca = \\frac{1}{3}$. Consider the following inequality:\n$$\n\\frac{a}{a^2-bc+1} + \\frac{b}{b^2-ca+1} + \\frac{c}{c^2-ab+1} \\quad () \\quad \\frac{1}{a+b+c}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "155",
+    "problem": "Let $a, b, c$ be the side lengths of a triangle. Consider the following expression:\n$$\n\\left|\\sqrt{\\frac{a}{b}}-\\sqrt{\\frac{b}{a}}+\\sqrt{\\frac{b}{c}}-\\sqrt{\\frac{c}{b}}+\\sqrt{\\frac{c}{a}}-\\sqrt{\\frac{a}{c}}\\right| \\quad () \\quad \\frac{1}{10}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "156",
+    "problem": "For real numbers $a, b, c$, consider the following expressions:\n$$\na^4 + b^4 + c^4 + 2a + 2b + 2c + 3 \\quad () \\quad a^2 + b^2 + c^2 + 2a^2c + 2b^2a + 2c^2b.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "157",
+    "problem": "Let $x, y, z > 1$. Consider the following expressions:\n$$\nx^{x^2+2yz} y^{y^2+2zx} z^{z^2+2xy} \\quad () \\quad (xyz)^{xy+yz+zx}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "158",
+    "problem": "Let $a_1, a_2, \\ldots, a_n$ be real numbers such that $a_1 + a_2 + \\ldots + a_n = 0$ and $\\left|a_1\\right| + \\left|a_2\\right| + \\ldots + \\left|a_n\\right| = 1$. Consider the following expression:\n$$\n\\left|a_1 + 2a_2 + \\ldots + na_n\\right| \\quad () \\quad \\frac{n}{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "159",
+    "problem": "Let $a, b, c \\in (0, +\\infty)$. Consider the following inequality:\n$$\n\\frac{a+b}{5a+b+2c} + \\frac{b+c}{b+c+3a} + \\frac{c+a}{c+4a+2b} + \\frac{2(ab+bc+ca)}{(3a^2+2b^2+c^2)} \\quad () \\quad \\frac{7}{3}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "160",
+    "problem": "Let $x_1, x_2, \\ldots, x_n$ (where $n \\geq 2$) be positive numbers satisfying:\n$$\n\\frac{1}{x_1+1998}+\\frac{1}{x_2+1998}+\\cdots+\\frac{1}{x_n+1998}=\\frac{1}{1998}.\n$$\n\nConsider the following expression:\n$$\n\\frac{\\sqrt[n]{x_1 x_2 \\cdots x_n}}{n-1} \\quad () \\quad 1998.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "161",
+    "problem": "Let $a, b, c$ be positive numbers. Consider the following inequality:\n$$\n9 a^2 b^2 c^2 \\quad () \\quad \\left(a^2 b + b^2 c + c^2 a\\right)\\left(a b^2 + b c^2 + c a^2\\right).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "162",
+    "problem": "Let $a_1, a_2, \\ldots, a_n$ be positive real numbers such that $a_1 + a_2 + \\cdots + a_n < 1$. Consider the following inequality:\n$$\n\\frac{a_1 a_2 \\cdots a_n\\left(1-\\left(a_1+a_2+\\cdots+a_n\\right)\\right)}{\\left(a_1+a_2+\\cdots+a_n\\right)\\left(1-a_1\\right)\\left(1-a_2\\right) \\cdots\\left(1-a_n\\right)} \\quad () \\quad \\frac{1}{n^{n+1}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "163",
+    "problem": "Let $a, b, c$ be non-negative numbers such that $ab + ac + bc = 3$. Consider the following inequality:\n$$\n\\frac{1}{a+2b+1} + \\frac{1}{3b+c+1} + \\frac{1}{2c+a+1} \\quad () \\quad \\frac{3}{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "164",
+    "problem": "Let $x, y, z > 0$. Consider the following inequality:\n$$\n\\frac{x y z}{(2+3 x)(x+8 y)(y+9 z)(z+6)} \\quad () \\quad \\frac{1}{6^4}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "165",
+    "problem": "Let $a, b, c$ be positive real numbers such that $abc = 1$. Consider the following inequality:\n$$\n\\frac{1}{a^5(b+c)^2} + \\frac{1}{b^5(c+2a)^2} + \\frac{1}{c^5(a+b)^2} \\quad () \\quad \\frac{1}{4}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "166",
+    "problem": "Let $a, b, c > 0$ be positive real numbers. Consider the following inequality:\n$$\n\\sum \\frac{(b^2+c^2)(a-b)(a-c)}{(a+b)(a+c)} \\quad () \\quad a^2 + b^2 + c^2 - 2ab - 3bc - ca .\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "167",
+    "problem": "Given $\\{x, y, z\\} \\subset [0, 1]$. Consider the following expression:\n$$\nx^5 + y^5 + z^5 - 2x^4 y - 2y^4 z - z^4 x \\quad () \\quad 1.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "168",
+    "problem": "Let $a, b, c$ be positive numbers such that $a^4 b^2 + b^4 c^2 + c^4 a^2 = 1$. Consider the following inequality:\n$$\na b c (\\frac{1}{2}a b^2 + \\frac{1}{3}b c^2 + c a^2) \\quad () \\quad 2.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "169",
+    "problem": "For every acute-angled triangle with angles $A, B, C$, consider the following expression:\n$$\n(\\sec A - 1)(\\sec B - 1)(\\sec C - 1) \\quad () \\quad 1.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "170",
+    "problem": "Let $a, b, c > 0$ be positive real numbers. Consider the following inequality:\n$$\n\\frac{a}{\\sqrt{4 b^2+2b c+4 c^2}}+\\frac{b}{\\sqrt{4 c^2+c a+5 a^2}}+\\frac{c}{\\sqrt{4 a^2+a b+4 b^2}} \\quad () \\quad \\frac{3}{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "171",
+    "problem": "Let $a, b, c$ be positive real numbers such that $ab + bc + ca > 0$. Consider the following inequality:\n$$\n\\frac{a^2+bc}{b^2-bc+c^2} + \\frac{b^2+ca}{c^2-ca+a^2} + \\frac{c^2+ab}{a^2-ab+b^2} \\quad () \\quad 3.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "172",
+    "problem": "Let $\\triangle ABC$ be an acute triangle with sides $a, b, c$, circumradius $R$, and inradius $r$. Consider the following inequality:\n$$\na + b + c \\quad () \\quad 4R + 2r.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "173",
+    "problem": "Let $a, b, c \\geq 0$. Consider the following inequality:\n$$\n\\sqrt[3]{\\frac{|a-b|^3+|b-c|^3+|c-a|^3}{3}} \\quad () \\quad \\left(\\sqrt[3]{\\frac{a^3+b^3+c^3}{3}} - 2\\sqrt[3]{abc}\\right).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "174",
+    "problem": "Let $a, b, c$ be the sides of any triangle. Consider the following inequality:\n$$\n3(a b(1+2 \\cos (c))+b c(1+2 \\cos (a))+a c(1+2 \\cos (b))) \\quad () \\quad   2\\left(\\sum_{cyc} \\sqrt{\\left(c^2+a b(1+2 \\cos (c))\\right)\\left(b^2+a c(1+\\cos (b))\\right)}\\right).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "175",
+    "problem": "For $a, b, c > 0$ such that $a + b + c = 1$, consider the following inequality:\n$$\n9abc + 3 \\quad () \\quad 7(ab + bc + ca).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "176",
+    "problem": "Let $a, b, c \\in \\mathbb{R}^{+}$ be positive real numbers such that $a + b + c = 1$. Consider the following inequality:\n$$\n\\frac{2a^2}{b} + \\frac{3b^2}{c} + \\frac{c^2}{a} \\quad () \\quad 2(a^2 + b^2 + c^2).\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "177",
+    "problem": "For positive real numbers $a, b, c$, consider the following inequality:\n$$\n\\frac{1}{a^2+a b}+\\frac{3}{b^2+2b c}+\\frac{2}{2c^2+c a} \\quad () \\quad \\frac{1}{(a b c)^{2 / 3}}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "178",
+    "problem": "Let $x_1, x_2, \\ldots, x_n$ be arbitrary real numbers. Consider the following inequality:\n$$\n\\frac{x_1}{1+x_1^2}+\\frac{x_2}{1+x_1^2+x_2^2}+\\ldots+\\frac{x_n}{1+x_1^2+\\ldots+x_n^2} \\quad () \\quad \\sqrt{n}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "179",
+    "problem": "Let $a, b, c, x, y, z > 0$ be positive real numbers such that $a + b + c = 4$ and $a x + b y + c z = x y z$. Consider the following inequality:\n$$\n2x + y + z \\quad () \\quad \\sqrt{a+b} + \\sqrt{b+c} + \\sqrt{c+a} .\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "180",
+    "problem": "Let $a, b, c \\geq 0$ such that $a + b + c = 2$. Consider the following inequality:\n$$\n\\sum \\frac{bc}{2a^2+1} \\quad () \\quad \\frac{3}{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "181",
+    "problem": "In quadrilateral $ABCD$, $AB \\parallel CD$ and $AC \\perp BD$. Consider the following inequality:\n$$\nAD + BC \\quad () \\quad AB + CD + 1.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "182",
+    "problem": "Let $a, b, c \\in [1, \\infty)$. Consider the following expression:\n$$\n\\frac{a \\sqrt{b}}{a+b} + \\frac{b \\sqrt{c}}{b+c} + \\frac{c \\sqrt{b}}{c+a} + 1 \\quad () \\quad 2a + 2b + c.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "183",
+    "problem": "Let $a, b, c$ be positive real numbers such that $a b c = 1$. Consider the following expression:\n$$\n\\frac{a^2 b^2}{2a^7+b^7+2a^2 b^2}+\\frac{b^2 c^2}{b^7+3c^7+b^2 c^2}+\\frac{c^2 a^2}{c^7+a^7+c^2 a^2} \\quad () \\quad 1.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "184",
+    "problem": "Let $a, b \\geq 0$ be non-negative real numbers such that $a^2 b(a+b) = 4$. Consider the following inequality:\n$$\na(a+8b) \\quad () \\quad 4\\sqrt{6}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "185",
+    "problem": "Let $a, b \\geq 0$ such that $a^2 b^2(a^2 + b^2 + 2) \\geq 4$. Consider the following inequality:\n$$\n(a+2b)(1+2ab) \\quad () \\quad 5.\n$$\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "186",
+    "problem": "Let $a, b \\geq 0$ be non-negative real numbers such that $a + b = 1$. Consider the following expression:\n$$\n\\frac{1}{a^2 - ab + 1} + \\frac{1}{b^2 - ab + 1} - 4a^2b^2 \\quad () \\quad \\frac{7}{4}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "187",
+    "problem": "Let $x$ be a real number. Consider the following inequality:\n$$\nx^2 + \\frac{1}{6(1+|x-2|)} \\quad () \\quad 6 - \\sqrt[3]{6} - \\frac{5}{4} \\sqrt[3]{36} .\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "188",
+    "problem": "Let \\( a_1, a_2, \\ldots, a_n, x_1, x_2, \\ldots, x_n \\) be positive real numbers. Consider the following expression:\n$$\na_1 a_2 \\cdots a_n \\left( \\frac{a_1}{x_1} + \\frac{a_2}{x_2} + \\cdots + \\frac{a_n}{x_n} - n \\right) + x_1 x_2 \\cdots x_n \\left( \\frac{x_1}{a_1} + \\frac{x_2}{a_2} + \\cdots + \\frac{x_n}{a_n} - n \\right) \\quad () \\quad 1\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "189",
+    "problem": "Let $x, y \\in \\mathbb{R}^{+}$ be positive real numbers. Consider the following inequality:\n$$\n\\frac{4}{(x+2y)^2} + \\frac{2}{x^2} + \\frac{1}{y^2} \\quad () \\quad \\frac{2}{xy}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "190",
+    "problem": "Let $x_1, x_2, \\ldots, x_n$ be positive real numbers such that $x_1 + x_2 + \\cdots + x_n = 1$. Consider the following expression:\n$$\n\\sum_{i=1}^n \\frac{\\min \\left\\{x_{i-1}, x_i\\right\\} \\cdot \\max \\left\\{x_i, x_{i+1}\\right\\}}{x_i} \\quad () \\quad 1\n$$\nwhere we denote $x_0 = x_n$ and $x_{n+1} = x_1$.\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "191",
+    "problem": "Let $a, b, c \\in \\mathbb{R}$ be real numbers such that $a + b + c = 1$. Consider the following inequality:\n$$\n3ab + 4bc + 5ca \\quad () \\quad \\frac{5}{3}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "192",
+    "problem": "Let $a, b, c$ be positive real numbers such that $a+b+c = ab + bc + ca$ and $n \\geq 3$. Consider the following inequality:\n$$\n\\frac{a^2}{b} + \\frac{b^2}{c} + \\frac{c^2}{a} + \\frac{3n}{a^2 + b^2 + c^2} \\quad () \\quad 3 + n.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "193",
+    "problem": "Let $-1 \\leq x, y \\leq 1$. Consider the following inequality:\n$$\nx \\sqrt{1-y^2} + y \\sqrt{1-x^2} \\quad () \\quad \\frac{3}{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "194",
+    "problem": "Let $a, b, c$ be positive real numbers such that $abc = 1$. Consider the following inequality:\n$$\n\\frac{2}{b(a+b)} + \\frac{1}{c(b+c)} + \\frac{1}{a(c+a)} \\quad () \\quad \\frac{4}{3}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "195",
+    "problem": "Let $a, b, c$ be positive real numbers such that $a + b + c = 3$. Consider the following inequality:\n$$\n\\frac{2}{a} + \\frac{4}{b} + \\frac{2}{c} + (2ab + 3bc + 3ca) \\quad () \\quad 10.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "196",
+    "problem": "Let $x, y, z$ be complex numbers such that $|x + 2y + 3z| = 1$. Consider the following inequality:\n$$\nx^2 + y^2 + z^2 + \\left|x^2 + y^2 + z^2\\right| \\quad () \\quad \\frac{1}{8}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "197",
+    "problem": "Let $a, b, c > 0$ be positive real numbers such that $a + b + c = 1$. Consider the following inequality:\n$$\n\\frac{a}{\\sqrt{a+2b}} + \\frac{b}{\\sqrt{2b+2c}} + \\frac{c}{\\sqrt{c+2a}} \\quad () \\quad \\sqrt{2}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "198",
+    "problem": "For all $a, b, c, k > 0$, consider the following inequality:\n$$\n\\frac{a}{\\sqrt{k a+b}}+\\frac{b}{\\sqrt{2k b+c}}+\\frac{c}{\\sqrt{k c+2a}} \\quad () \\quad \\sqrt{\\frac{k+3}{k}(a+b+c)}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  },
+  {
+    "data_id": "199",
+    "problem": "Let $x, y, z$ be positive numbers such that $xy + yz + zx = 1$. Consider the following inequality:\n$$\n\\frac{x^3}{1+9y^2zx} + \\frac{y^3}{1+9z^2xy} + \\frac{z^3}{1+9x^2yz} \\quad () \\quad \\frac{(x+y+z)^3}{20}.\n$$\n\nDetermine the correct inequality relation to fill in the blank.\n\nOptions:\n\n(A) $\\leq$ \n\n(B) $\\geq$\n\n(C) $=$ \n\n(D) $<$\n\n(E) $>$\n\n(F) None of the above",
+    "choices": [
+      "(A) $\\leq$",
+      "(B) $\\geq$",
+      "(C) $=$",
+      "(D) $<$",
+      "(E) $>$",
+      "(F) None of the above"
+    ],
+    "type": "relation",
+    "data_split": "test",
+    "answer": "",
+    "solution": "",
+    "theorems": {}
+  }
+]
