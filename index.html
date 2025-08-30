@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="IneqMath: Solving Inequality Proofs with Large Language Models">
-  <meta name="keywords" content="IneqMath, Olympiad, Inequality, Proof, Math, Reasoning">
+  <meta name="description" content="Investigating Advanced Reasoning of Large Language Models via Black-box Interaction">
+  <meta name="keywords" content="Oracle Benchmark, Black-box, Reasoning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> IneqMath: Solving Inequality Proofs with Large Language Models</title>
+  <title>Investigating Advanced Reasoning of Large Language Models via Black-box Interaction</title>
 
-  <link rel="icon" href="./assets/logos/ineqmath_icon.png">
+  <link rel="icon" href="./assets/logos/logo.png?v=2">
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -249,71 +249,21 @@
 
   <!-- Add visualization tool JS -->
   <script src="./static/js/visualization-tool.js"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 </head>
 
 
 <body>
 
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-        <a class="navbar-item" href="https://lupantech.github.io/" target="_blank">
-          <span class="icon">
-            <i class="fas fa-home"></i>
-          </span>
-        </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More Research
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://octotools.github.io/" target="_blank">
-              <b>OctoTools</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            <a class="navbar-item" href="https://textgrad.com/" target="_blank">
-              <b>TextGrad</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            <a class="navbar-item" href="https://mathvista.github.io/" target="_blank">
-              <b>MathVista</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            <a class="navbar-item" href="https://mathverse-cuhk.github.io/" target="_blank">
-              <b>MathVerse</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            <a class="navbar-item" href="https://promptpg.github.io/" target="_blank">
-              <b>PromptPG</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            <a class="navbar-item" href="https://lupantech.github.io/inter-gps/" target="_blank">
-              <b>Inter-GPS</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            <a class="navbar-item" href="https://arxiv.org/abs/2305.12524" target="_blank">
-              <b>TheoremQA</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            <a class="navbar-item" href="https://github.com/lupantech/dl4math" target="_blank">
-              <b>DL4Math</b>
-              <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-            </a>
-            
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </nav>
 
   <!-- Add Table of Contents -->
   <div class="toc-wrapper">
@@ -321,13 +271,11 @@
     <h4 style="margin-bottom: 10px;"><a href="#">Table of Contents</a></h4>
     <ul class="toc-list">
       <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#examples"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Examples</a></li>
-      <li><a href="#judges">Fine-grained Informal Judges</a></li>
-      <li><a href="#leaderboard"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Leaderboard</a></li>
-      <li><a href="#dataset-overview">Dataset Overview</a></li>
-      <li><a href="#visualization">Visualization</a></li>
-      <li><a href="#results">In-depth Study</a></li>
-      <li><a href="#improvement">Improvement Strategies</a></li>
+      <li><a href="#examples"> Examples</a></li>
+      <li><a href="#framework">Framework for Scaling</a></li>
+      <li><a href="#setting">Benchmark Settings</a></li>
+      <li><a href="#leaderboard">Results</a></li>
+      <li><a href="#results">In-depth Analysis</a></li>
       <li><a href="#BibTeX">BibTeX</a></li>
     </ul>
   </div>
@@ -341,35 +289,38 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title is-bold">
               <span style="vertical-align: middle">
-                <img src="assets/logos/ineqmath.svg" alt="IneqMath Logo" style="height: 1.6em; vertical-align: middle; margin-right: 8px;">
+                <img src="assets/logos/logo.png" alt="Oracle Logo" style="height: 1.6em; vertical-align: middle; margin-right: 8px;"><span style="font-size: 40px;">Oracle Benchmark:</span>
               </span>
             </h1>
             <h2 class="subtitle is-3 publication-subtitle">
-              Solving Inequality Proofs with Large Language Models  
+              Investigating Advanced Reasoning of Large Language Models via Black-box Interaction
             </h2>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                <a href="" target="_blank">Jiayi Sheng</a>*<sup><span>\(\textcolor[rgb]{0,0.196,0.384}{\boldsymbol{\beta}}\)</span></sup>,</span>
+                <a href="" target="_blank">Congchi Yin</a>*<sup>1,2</sup>,</span>
               <span class="author-block">
-                <a href="" target="_blank">Luna Lyu</a>*<sup><span>\(\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup>,</span>
+                <a href="" target="_blank">Tianyi Wu</a>*<sup>3</sup>,</span>
               <span class="author-block">
-                <a href="https://jkjin.com/" target="_blank">Jikai Jin</a><sup><span>\(\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup>,</span>
+                <a href="" target="_blank">Yankai Shu</a><sup>3</sup>,</span>
               <span class="author-block">
-                <a href="https://tonyxia2001.github.io/" target="_blank">Tony Xia</a><sup><span>\(\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup>,</span>
+                <a href="" target="_blank">Alex Gu</a><sup>4</sup>,</span>
               <span class="author-block">
-                <a href="https://minimario.github.io/" target="_blank">Alex Gu</a><sup><span>\(\textcolor[rgb]{0,0,0}{\boldsymbol{\gamma}}\)</span></sup>,</span>
+                <a href="" target="_blank">Yunhan Wang</a><sup>3</sup>,</span>
               <span class="author-block">
-                <a href="https://www.james-zou.com/" target="_blank">James Zou</a><sup><span>\(\dagger\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup>,</span>
+                <a href="" target="_blank">Jun Shao</a><sup>2</sup>,</span>
               <span class="author-block">
-                <a href="https://lupantech.github.io/" target="_blank">Pan Lu</a><sup><span>\(\dagger\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup></span>
+                <a href="" target="_blank">Xun Jiang</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="" target="_blank">Piji Li</a><sup>†1</sup></span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block" style="margin-right: 20px;"><sup><span>\(\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup> <span style="color: rgb(140, 21, 21);">Stanford University</span></span>
-              <span class="author-block" style="margin-right: 20px;"><sup><span>\(\textcolor[rgb]{0,0.196,0.384}{\boldsymbol{\beta}}\)</span></sup> <span style="color: rgb(0, 50, 98);">UC Berkeley</span></span>
-              <span class="author-block"><sup><span>\(\textcolor[rgb]{0,0,0}{\boldsymbol{\gamma}}\)</span></sup> <span style="color: rgb(0, 0, 0);">Massachusetts Institute of Technology</span></span><br>
-              <span class="paper-block" style="margin-right: 24px;"><b>* Co-first authors</b></span>
-              <span class="paper-block" style="margin-left: 24px;"><b><span>\(\dagger\)</span> Co-senior authors</b></span>
+              <span class="author-block" style="margin-right: 18px;"><sup>1</sup> <span>Nanjing University of Aeronautics and Astronautics</span></span>
+              <span class="author-block" style="margin-right: 18px;"><sup>2</sup> <span">Theta Health Inc.</span></span><br>
+              <span class="author-block" style="margin-right: 18px;"><sup>3</sup> <span">Peking University</span></span>
+              <span class="author-block"><sup>4</sup> <span>MIT</span></span><br>
+              <span class="paper-block" style="margin-right: 18px;">* Co-first Authors</span>
+              <span class="paper-block" style="margin-left: 18px;"><span>\(\dagger\)</span> Corresponding Author</span>
             </div>
 
             <div class="column has-text-centered">
@@ -386,25 +337,16 @@
                 </span> -->
                 <!-- arxiv link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2506.07927" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <a href="https://arxiv.org/abs/2508.19035" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
                     </span>
                     <span>arXiv</span>
                   </a>
                 </span>
-                <!-- HF Paper -->
-                <span class="link-block">
-                  <a href="https://huggingface.co/papers/2506.07927" class="external-link button is-normal is-rounded is-dark" target="_blank">
-                    <span class="icon">
-                      <p style="font-size:18px">🤗</p>
-                    </span>
-                    <span>HF Paper</span>
-                  </a>
-                </span>
                 <!-- Code Link. -->
                 <span class="link-block">
-                  <a href="https://github.com/lupantech/ineqmath"
+                  <a href="https://github.com/lemonsis/Oracle_Benchmark"
                     class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -412,44 +354,14 @@
                     <span>Code</span>
                   </a>
                 </span>
-                <!-- Hugging Face Link. -->
-                <span class="link-block">
-                  <a href="https://huggingface.co/datasets/AI4Math/IneqMath"
-                    class="external-link button is-normal is-rounded is-dark" target="_blank">
-                    <span class="icon">
-                      <p style="font-size:18px">🤗</p>
-                    </span>
-                    <span>Dataset</span>
-                  </a>
-                </span>
                 <!-- Leaderboard Link. -->
                 <span class="link-block">
-                  <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard"
+                  <a href="https://huggingface.co/spaces/tianyiwu/oracle-bench"
                     class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <p style="font-size:18px">🏆</p>
                     </span>
                     <span>Leaderboard</span>
-                  </a>
-                </span>
-                <!-- Visualization Link. -->
-                <span class="link-block">
-                  <a href="#visualization"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <p style="font-size:18px">🔮</p>
-                    </span>
-                    <span>Visualization</span>
-                  </a>
-                </span>
-                <!-- Twitter Link. -->
-                <span class="link-block">
-                  <a href="https://x.com/lupantech/status/1932866286427779586"
-                    class="external-link button is-normal is-rounded is-dark" target="_blank">
-                    <span class="icon">
-                      <p style="font-size:18px">🌐</p>
-                    </span>
-                    <span>Twitter</span>
                   </a>
                 </span>
                 
@@ -465,14 +377,11 @@
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="content has-text-centered">
-        <img src="assets/results/key_results_figure.png" width="100%">
-        <p style="text-align: left;">
-        <b>Final-answer accuracy</b> versus <b>overall accuracy</b> for leading LLMs across different categories on the 
-        <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> benchmark of Olympiad-level inequality problems. 
-        Overall accuracy, measuring both answer correctness and step soundness, is substantially lower than final-answer accuracy for all model types. 
-        This highlights a critical gap: while LLMs may find correct final answers to these inequality problems, their reasoning is often unsound. 
-        Each model used its optimal maximal tokens.
-        </p>
+        <figure>
+        <img src="assets/framework.png" width="100%"><figurecaption>Illustration of Charles Peirce's framework of humans reasoning behavior (upper) and an example of the process of black-box interaction (lower). 
+          In this example, the black-box represents an encryption method that maps English letters to numbers.</figurecaption>
+      </figure>
+          
       </div>
       
       
@@ -487,18 +396,26 @@
           <h2 class="title is-3">Introduction</h2>
           <div class="content has-text-justified">
             <p>
-              Inequality proving, crucial across diverse scientific and mathematical fields, tests advanced reasoning skills such as discovering tight bounds and strategic theorem application. 
-              This makes it a distinct, demanding frontier for large language models (LLMs), offering insights beyond general mathematical problem-solving. 
-              Progress in this area is hampered by existing datasets that are often scarce, synthetic, or rigidly formal. We address this by proposing an <b>informal yet verifiable</b> task formulation, recasting inequality proving into two automatically checkable subtasks: 
-              <b>bound estimation</b> and <b>relation prediction</b>. 
+              Existing reasoning datasets and benchmarks fall short in placing LLMs in an <b>interactive, unknown environment</b>.
+              This shortcoming leads to evaluating reasoning in an isolated manner, rather than an integrated, holistic process.
+              We introduce <b>black-box interaction</b>, a novel evaluation paradigm for <b>investigating the integrated, human-like reasoning capability of LLMs</b>, which we term advanced reasoning.
             </p> 
             <p>
-              Building on this, we release <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>, an expert-curated dataset of Olympiad-level inequalities, 
-              including a test set and training corpus enriched with <b>step-wise solutions and theorem annotations</b>. We also develop a novel <b>LLM-as-judge evaluation framework</b>, combining a <em>final-answer</em> judge with four <em>step-wise</em> judges designed to detect common reasoning flaws. 
+              Black-box is defined as a hidden function $f:\mathcal{X}\to \mathcal{Y}$, mapping input $\mathcal{X}=\{x | P(x)\}$ that satisfies predicate $P$ to output $\mathcal{Y}$. LLMs are instructed to interact with the black-box, 
+              and the interaction is two-stage: (1). In the exploration stage, LLMs can freely feed any valid input $x$ to the black-box, and will receive corresponding feedback $f(x)$. (2). The evaluation stage starts after reaching given maximum exploration turns. LLMs' comprehension of the black-box is evaluated by comparing their output with the black-box's output on a set of unseen test samples.
+              The practical implementation of a black-box simply involves mapping inputs to outputs based on hidden rules. <b>This simplicity allows it to be generalized across various environments.</b>
+To facilitate and accelerate the generalization of black-boxes to any scale, type, and level of difficulty, we design a <b>fully automated agentic framework for black-box construction</b>. Three LLM-based modules collaborate to accomplish black-box construction from scratch only with natural language description.
             </p>
             <p>
-              A systematic evaluation of 29 leading LLMs on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> reveals a surprising reality: even top models like o1 achieve less than 10% overall accuracy under step-wise scrutiny; this is a drop of up to 65.5% from their accuracy considering only final answer equivalence. 
-              This discrepancy exposes <b>fragile deductive chains and a critical gap for current LLMs between merely finding an answer and constructing a rigorous proof</b>. <b>Scaling model size and increasing test-time computation</b> yield limited gains in overall proof correctness. Instead, our findings highlight promising research directions such as <b>theorem-guided reasoning and self-refinement</b>.
+              Leveraging this framework, we build the <b>Oracle benchmark</b>, which considers 6 types of black-box task: <b>Code Intent Inference (CII), Circuit Rule Inference (CRI), Physics System Inference (PSI), 
+              Encryption Rule Inference (ERI), Interactive Puzzle Inference (IPI), Game Strategy Inference (GSI).</b>
+              The 6 tasks take <b>code, boolean circuit, mechanical system, encryption method, interactive puzzle, opponent's game strategy</b> as black-box respectively.
+              Current benchmark consists of 96 black-boxes, 50 of them are easy black-boxes and 46 are hard. 
+            </p>
+            <p>
+              We evaluate 19 leading proprietary and open-weight LLMs. Overall, reasoning models perform better than chat models. o3 delivers the best performance, ranking first in 5 out of 6 tasks under 10 exploration turns and 4 out of 6 tasks under 20 exploration turns. Furthermore, it achieves an average accuracy exceeding 70% on most easy black-boxes and approximately 40% on most hard ones.
+Further analysis reveals a critical and universal weakness of LLMs: <b>They lack the high-level planning capability required to develop efficient and adaptive exploration strategies.</b>
+This deficiency in reasoning prevents effective hypothesis refinement, which consequently compromises the ability to understand complex black-box mechanisms under limited exploration.
             </p>
           </div>
           
@@ -514,569 +431,139 @@
     <div class="container" style="margin-bottom: 2vh;">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Examples</h2>
+          <h2 class="title is-3">Examples in the Oracle Benchmark</h2>
           <div class="content has-text-justified">
             <p>
-              Below are training and testing examples from <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>. Each problem belongs to one of two automatically checkable subtasks: <b>bound estimation</b> or <b>relation prediction</b>.
-              Each training problem includes <b>step-wise solutions</b>, with up to four solutions per problem, and 76.8% (962 problems) are annotated with <b>relevant theorems</b>. The test problems are each crafted and reviewed by <b>IMO-level medalists</b> to ensure both originality and difficulty.
+              Below are black-box interaction examples from 6 tasks <b>Code Intent Inference (CII), Circuit Rule Inference (CRI), Physics System Inference (PSI), 
+                Encryption Rule Inference (ERI), Interactive Puzzle Inference (IPI), Game Strategy Inference (GSI)</b> in the Oracle benchmark. These examples cover both exploration and evaluation. 
             </p>
+            <img src="assets/oracle.png" width="100%">
+            
 
-            <div id="examples-carousel" class="carousel results-carousel">
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/dataset/train_bound_example.png" width="90%">
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/dataset/train_relation_example.png" width="90%">
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/dataset/test_combined_example.png" width="90%">
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--/ IneqMath Examples -->
-
   <!-- Fine-grained Informal Judges -->
-  <section class="section" id="judges">
+  <section class="section" id="framework">
     <div class="container" style="margin-bottom: 2vh;">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Fine-grained Informal Judges</h2>
+          <h2 class="title is-3">Automatic Framework for Black-box Generation</h2>
           <div class="content has-text-justified">
             <p>
-            Traditional evaluation methods fall short in this setting: expert annotation is accurate but prohibitively labor-intensive, 
-            while automated techniques such as string matching or value equivalence fail to capture step-by-step correctness—an essential aspect of inequality problem solving. 
-
-            To evaluate the correctness of <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> solutions, we propose a fine-grained <b>LLM-as-judge</b> framework, consisting of a <b>final-answer judge</b> for verifying the predicted answer and four specialized <b>step-wise judges</b> targeting common reasoning flaws. 
-            A solution is deemed correct <b>overall</b> only if it passes all five judges. As shown in the following table and confusion matrix, these judges achieve strong alignment with human annotations (F1 = 0.93), providing a scalable yet reliable alternative to manual evaluation.
+            Three LLM-based Modules, <b>Coding LLM, Test LLM, Refinement LLM</b>, cooperate to construct a black-box from scratch only with natural language description. Specifically,
+            <b>Coding LLM</b> generates the complete code for conducting black-box interaction, covering the implementation of black-box and interactive interface between LLMs and black-box.
+            <b>Test LLM</b> is used to interact with the black-box to simulate real interaction scenarios. This simulation covers both exploration and evaluation stage.
+            <b>Refinement LLM</b> is used to check the correctness of generated platform code by combining the interaction log and task rule.
+            Test LLM and Refinement LLM work iteratively until the generated platform code is correct.
             </p>
-
-
-
-            <div id="judges-carousel" class="carousel results-carousel">
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/judges/judge_metrics_table.png" width="90%">
-                  <p>Performance metrics of <b>LLM-as-Judge</b> framework on development set.
-                  </p>
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/judges/confusion_matrix_judge_metrics.png" width="90%">
-                  <p>Confusion matrices for five judges, which exhibit strong agreement with human labels.
-                  </p>
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/judges/judge_baseline_confusion_matrix.png" width="30%">
-                  <p>Confusion matrix for the judge baseline.
-                  </p>
-                </div>
-              </div>
-
-            </div>
+            <img src="assets/gen_framework.png" width="100%">
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--/ Fine-grained Informal Judges -->
+  <section class="section" id="setting">
+    <div class="container" style="margin-bottom: 2vh;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Benchmark Settings</h2>
+          <div class="content has-text-justified">
+            <p>
+              Two metrics, <b>accuracy</b> and <b>turn@shot</b>, are used to measure the reasoning ability of LLMs in black-box interaction. The accuracy for each black-box is calculated via
+              $acc = \sum^{K}_{k=1} c^k /K$, 
+              where $K$ is the number of test samples and $c^k$ measures the correctness of LLMs' answer. Specifically, accuracy in GSI task is measured by the ratio of actual score to the optimal strategy score.
+              Turn@shot consists of two aspects. Turn denotes to the number of interaction turns for exploration, and shot indicates the number of allowed attempts for each test sample during evaluation. For example, $20$@$2$ means the exploration stage lasts for $20$ turns, and a model has $2$ chances to answer each test sample in evaluation.
+              The best model is supposed to achieve the highest accuracy with the lowest turn@shot.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Leaderboard -->
   <section class="section" id="leaderboard">
-    <div style="width: 68%; margin: 0 auto;">
-      <h2 class="title is-3" style="text-align:center;"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Leaderboard</h2>
-      <div class="content" style="font-size:1.1em; margin-bottom:10px; text-align:left;">
-        <p>
-          🏆 The interactive leaderboard for the <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> is available <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank">here</a>. 
-        </p>
-      </div>
-      <div class="content has-text-justified">
-        <!-- Filters -->
-        <div id="leaderboard-filters" class="box" style="margin-bottom: 20px;">
-          <!-- Model Search Filter (full width, single section) -->
-          <p class="has-text-weight-semibold" style="margin-bottom: 8px;">Model Search</p>
-          <input type="text" id="model-search-input" class="input is-small" placeholder="Search models (e.g., 'llama', 'gpt', 'claude')" style="width: 100%; margin-bottom: 16px;">
-          <div class="columns is-multiline is-mobile">
-            <!-- Model Size Filter -->
-            <div class="column is-full-mobile is-one-third-desktop">
-              <p class="has-text-weight-semibold" style="margin-bottom: 8px;">Model Size</p>
-              <div class="tags are-medium">
-                <label class="tag is-light">
-                  <input type="checkbox" class="size-filter" data-size="<1B" checked>
-                  <span style="margin-left:4px;">&lt;1B</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="size-filter" data-size="1-7B" checked>
-                  <span style="margin-left:4px;">1-7B</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="size-filter" data-size="7-13B" checked>
-                  <span style="margin-left:4px;">7-13B</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="size-filter" data-size="13-30B" checked>
-                  <span style="margin-left:4px;">13-30B</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="size-filter" data-size="30-70B" checked>
-                  <span style="margin-left:4px;">30-70B</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="size-filter" data-size=">70B" checked>
-                  <span style="margin-left:4px;">&gt;70B</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="size-filter" data-size="UNK" checked>
-                  <span style="margin-left:4px;">UNK</span>
-                </label>
-              </div>
-            </div>
-
-            <!-- Model Type Filter -->
-            <div class="column is-full-mobile is-one-third-desktop">
-              <p class="has-text-weight-semibold" style="margin-bottom: 8px;">Model Type</p>
-              <div class="tags are-medium">
-                <label class="tag is-light">
-                  <input type="radio" name="type-filter" class="type-filter" value="all" checked>
-                  <span style="margin-left:4px;">All</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="radio" name="type-filter" class="type-filter" value="reasoning">
-                  <span style="margin-left:4px;">Reasoning</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="radio" name="type-filter" class="type-filter" value="chat">
-                  <span style="margin-left:4px;">Chat</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="radio" name="type-filter" class="type-filter" value="tool">
-                  <span style="margin-left:4px;">Tool</span>
-                </label>
-              </div>
-            </div>
-
-            <!-- Model Source Filter -->
-            <div class="column is-full-mobile is-one-third-desktop">
-              <p class="has-text-weight-semibold" style="margin-bottom: 8px;">Model Source</p>
-              <div class="tags are-medium">
-                <label class="tag is-light">
-                  <input type="radio" name="source-filter" class="source-filter" value="all" checked>
-                  <span style="margin-left:4px;">All</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="radio" name="source-filter" class="source-filter" value="proprietary">
-                  <span style="margin-left:4px;">Proprietary</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="radio" name="source-filter" class="source-filter" value="open-source">
-                  <span style="margin-left:4px;">Open-source</span>
-                </label>
-              </div>
-            </div>
+    <div class="container" style="margin-bottom: 2vh;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Results of the Oracle Benchmark</h2>
+          <div class="content has-text-justified">
+            <p>
+              The following figures show the results of the Oracle benchmark.
+              Models are ranked by the sum of their accuracy on easy and hard black-boxes.
+              Generally speaking, models exhibit similar rankings across 6 tasks.
+              o3, o4-mini, gemini-2.5-pro, claude-3.7-sonnet_thinking, and claude-4-sonnet_thinking achieve competitive performance on all six tasks, and o3 ranks first among all models. When it comes to open-source models, deepseek-r1 achieves the top overall performance. 
+              Latest models (e.g., gemini-2.5-flash) perform better than old models (e.g., gemini-2.0-flash). Reasoning models (e.g., claude-4-sonnet_thinking) perform better than conventional chat models (e.g., claude-4-sonnet).
+              While best performing LLMs boast over 80% accuracy on some easy black-box tasks, they still struggle with harder ones, where their accuracy is typically less than half that of their performance on easy tasks.
+            </p>
+            <figure>
+            <img src="assets/10_1.png" width="100%"><figcaption>Model performance in the Oracle benchmark 10@1&1@1.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/20_2.png" width="100%"><figcaption>Model performance in the Oracle benchmark 20@2&2 @1.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/10_1tb.png" width="100%"><figcaption>Detailed model performance in the Oracle benchmark 10@1&1@1.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/20_2tb.png" width="100%"><figcaption>Detailed model performance in the Oracle benchmark 20@2&2 @1.</figcaption>
+          </figure>
           </div>
-        </div>
-
-        <!-- Column Visibility Filters (now below row filters) -->
-        <div id="column-filters" class="box" style="margin-bottom: 20px;">
-          <div class="columns is-mobile">
-            <!-- Model Info Columns -->
-            <div class="column is-4.2-desktop is-12-mobile" style="flex-basis:38%;max-width:38%;">
-              <p class="has-text-weight-semibold" style="margin-bottom: 8px;">Model Info Columns</p>
-              <div class="tags are-medium" style="display: flex; flex-wrap: wrap; gap: 10px;">
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle meta-col-toggle" data-col="size" checked>
-                  <span style="margin-left:4px;">Size</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle meta-col-toggle" data-col="type" checked>
-                  <span style="margin-left:4px;">Type</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle meta-col-toggle" data-col="source" checked>
-                  <span style="margin-left:4px;">Source</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle meta-col-toggle" data-col="date" checked>
-                  <span style="margin-left:4px;">Date</span>
-                </label>
-              </div>
-            </div>
-            <!-- Step Accuracy Columns Filter -->
-            <div class="column is-4.2-desktop is-12-mobile" style="flex-basis:62%;max-width:62%;">
-              <p class="has-text-weight-semibold" style="margin-bottom: 8px;">Step Accuracy Columns</p>
-              <div class="tags are-medium" style="display: flex; flex-wrap: wrap; gap: 10px;">
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle step-col-toggle" data-col="ntc" checked>
-                  <span style="margin-left:4px;">Step Acc (NTC)</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle step-col-toggle" data-col="nlg" checked>
-                  <span style="margin-left:4px;">Step Acc (NLG)</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle step-col-toggle" data-col="nae" checked>
-                  <span style="margin-left:4px;">Step Acc (NAE)</span>
-                </label>
-                <label class="tag is-light">
-                  <input type="checkbox" class="col-toggle step-col-toggle" data-col="nce" checked>
-                  <span style="margin-left:4px;">Step Acc (NCE)</span>
-                </label>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="table-container" style="overflow-x: auto;">
-          <table id="leaderboard-table" class="table is-fullwidth is-striped is-hoverable">
-            <thead>
-              <tr>
-                <th style="background-color: #2A75D0; color: white; border-top-left-radius: 6px;">Rank</th>
-                <th style="background-color: #2A75D0; color: white;">Model</th>
-                <th style="background-color: #2A75D0; color: white;">Size</th>
-                <th style="background-color: #2A75D0; color: white;">Type</th>
-                <th style="background-color: #2A75D0; color: white;">Source</th>
-                <th style="background-color: #2A75D0; color: white;">Date</th>
-                <th style="background-color: #685DD4; color: white;">Overall Acc</th>
-                <th style="background-color: #685DD4; color: white;">Answer Acc</th>
-                <th style="background-color: #8751CF; color: white;">Step Acc (NTC)</th>
-                <th style="background-color: #8751CF; color: white;">Step Acc (NLG)</th>
-                <th style="background-color: #8751CF; color: white;">Step Acc (NAE)</th>
-                <th style="background-color: #8751CF; color: white; border-top-right-radius: 6px;">Step Acc (NCE)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td colspan="12" style="text-align: center; padding: 20px;">
-                  <i class="fas fa-spinner fa-spin"></i> Loading leaderboard data...
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div style="margin-top: 18px; text-align: center; font-size: 1em; color: #444;">
-          <span style="display:block; margin-bottom: 12px; font-style: italic; color: #666;">
-            Results are evaluated using our fine-grained LLM-as-judge framework. Overall accuracy requires passing all five specialized judges. The content in parentheses next to model's name represents reasoning effort and the max tokens respectively, with the default value for max tokens being 10K.
-          </span>
-          <b>Icons Explanation:</b><br>
-          Type: 🧠 = Reasoning Model, 📝 = Chat Model, 🔧 = Tool-augmented Model<br>
-          Source: 🔒 = Proprietary Model, 🌐 = Open-source Model
-          <br><br>
-          <b>Step Accuracy Abbreviations:</b><br>
-          NTC: No Toy Case - Step accuracy excluding using toy-case for general conclusions<br>
-          NLG: No Logical Gap - Step accuracy without logical reasoning gaps<br>
-          NAE: No Approximation Error - Step accuracy excluding approximation errors<br>
-          NCE: No Calculation Error - Step accuracy excluding all calculation errors
-          <div style="margin-top: 32px;"></div>
-          <p style="background-color: #fff3cd; border: 1px solid #b22222; border-radius: 6px; padding: 12px 18px; font-weight: bold; font-size: 1.08em; margin-bottom: 10px;">
-            🚨 You can submit your model's results through this 
-            <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank" style="color: #2A75D0; text-decoration: underline; font-weight: bold;">link</a> 
-            and receive an accuracy score.
-          </p>
-          <p style="background-color: #fff3cd; border: 1px solid #b22222; border-radius: 6px; padding: 12px 18px; font-weight: bold; font-size: 1.08em;">
-            🚨 You may also choose to add your score to the leaderboard or remove it at any time by clicking the 
-            "<b style="color: #111;">Process Query 🔍</b>" button and managing your submission in the same 
-            <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank" style="color: #2A75D0; text-decoration: underline; font-weight: bold;">link</a>.
-          </p>
         </div>
       </div>
     </div>
   </section>
   <!--/ Leaderboard -->
 
-    <!-- Data Statistics -->
-  <section class="section" id="dataset-overview">
-    <div class="container" style="margin-bottom: 2vh;">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Dataset Overview</h2>
-          <div class="content has-text-justified">
-            <p>
-              The <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> dataset comprises 200 test problems for benchmarking, 100 development problems with public ground truth, and 1,252 training problems split evenly between <b>bound estimation</b> and <b>relation prediction</b> tasks, as shown in the table below. The dataset also features 83 named theorems across 29 categories, with their distribution illustrated in the figure below.
-            </p>
-            <img src="assets/dataset/data_statistics.png" width="100%">
-          </div>
-          <div class="content has-text-justified">
-            <p style="text-align: left;">
-                The table below is a comparison of datasets for inequalities and theorem proving. 
-                <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> provides expert-annotated training and test/dev sets, featuring high-quality named theorems and step-wise solutions for model development. 
-                Unlike prior datasets using synthesis or autoformalization, <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> presents problems in informal language across multiple-choice (MC) and open-ended (Open) formats, and employs LLM-as-judge for evaluation.
-              </p>
-            <div style="text-align: center;">
-              <img src="assets/dataset/dataset_comparison.png" width="90%">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Data Statistics -->
+   
 
-  <!-- Visualization -->
-  <section class="section" id="visualization">
-    <div class="container is-max-widescreen">
-      <div class="columns is-centered">
-        <div class="column is-full">
-          <h2 class="title is-3" style="text-align: center;">Visualization</h2>
-          <div class="content" id="viz-app" style="text-align: left;">
-            <!-- Problem Checker & Editor Interface -->
-            <div class="box" style="padding: 0; border-radius: 8px; overflow: hidden;">
-              <!-- Header Bar -->
-              <div style="background-color: #B22222; color: white; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center;">
-                <h3 style="margin: 0; font-size: 1.2rem; font-weight: bold; color: white;">Data Visualization</h3>
-                <div style="display: flex; align-items: center; gap: 15px;">
-                  <button id="prev-problem" class="button is-small" style="background: transparent; border: 1px solid white; color: white; font-weight: bold;">
-                    <span class="icon"><i class="fas fa-arrow-left"></i></span>
-                    <span>PREVIOUS</span>
-                  </button>
-                  <div class="select is-small">
-                    <select id="split-select" style="background: white; color: #333; border: 2px solid #fff; font-weight: bold;">
-                      <option value="" disabled selected>Select Split</option>
-                      <option value="dev">Dev</option>
-                      <option value="test">Test</option>
-                      <option value="train">Training</option>
-                    </select>
-                  </div>
-                  <div class="select is-small">
-                    <select id="id-select" style="background: white; color: #333; border: 2px solid #fff; font-weight: bold;" disabled>
-                      <option value="" disabled selected>Select ID</option>
-                    </select>
-                  </div>
-                  <button id="next-problem" class="button is-small" style="background: transparent; border: 1px solid white; color: white; font-weight: bold;">
-                    <span>NEXT</span>
-                    <span class="icon"><i class="fas fa-arrow-right"></i></span>
-                  </button>
-                </div>
-              </div>
-
-              <div id="viz-content" style="display:none; padding: 20px;">
-                <!-- Problem Section -->
-                <div style="margin-bottom: 30px;">
-                  <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 15px; text-align: left;">Problem</h4>
-                  <div class="box" style="min-height: 120px; font-size: 16px; line-height: 1.6; padding: 20px; text-align: left;">
-                    <div id="problem-render"></div>
-                  </div>
-                </div>
-
-                <!-- Answer Section -->
-                <div style="margin-bottom: 30px;">
-                  <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 15px; text-align: left;">Answer</h4>
-                  <div class="box" style="min-height: 80px; font-size: 16px; line-height: 1.6; padding: 20px; text-align: left;">
-                    <div id="answer-render"></div>
-                  </div>
-                </div>
-
-                <!-- Theorems Section -->
-                <div style="margin-bottom: 20px;">
-                  <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 15px; text-align: left;">Theorems</h4>
-                  <div class="box" style="min-height: 100px; font-size: 16px; line-height: 1.6; padding: 20px; text-align: left;">
-                    <div id="theorems-render"></div>
-                  </div>
-                </div>
-
-                <!-- Solution Section -->
-                <div style="margin-bottom: 20px;">
-                  <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 15px; text-align: left;">Solution</h4>
-                  <div class="box" style="min-height: 200px; font-size: 16px; line-height: 1.6; padding: 20px; text-align: left;">
-                    <div id="solution-render"></div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Loading State -->
-              <div id="viz-loading" style="padding: 40px; text-align: left; color: #666;">
-                <p><i class="fas fa-spinner fa-spin"></i> Loading default problem (Training ID 0)...</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Visualization -->
 
   <!-- Results -->
   <section class="section" id="results">
     <div class="container">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">In-depth Study</h2>
+          <h2 class="title is-3">In-depth Analysis</h2>
           <div class="content has-text-justified">
             <p>
-              We conduct an in-depth analysis to understand the performance characteristics and limitations of current models on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>. 
-              Our study encompasses three key areas: <b>failure solution analysis</b> to identify common error patterns in LLM-generated proofs, 
-              <b>scaling laws in model size</b> to examine how model capacity affects reasoning accuracy, and <b>scaling laws in test-time computation</b> 
-              to investigate the impact of extended reasoning chains. These analyses reveal critical insights into the challenges of inequality proving 
-              and provide guidance for improving mathematical reasoning capabilities.
+              We conduct an in-depth analysis to understand the performance characteristics and limitations of current models on the Oracle Benchmark.
+              Generally speaking, LLMs struggle to develop <b>efficient</b> and <b>adaptive</b> exploration strategies.
+              We categorize exploration strategies into three tiers. <b>Tier 1</b>: Model can not develop a planned exploration strategy, and explore in a random approach. <b>Tier 2</b>: Model can develop a relatively efficient exploration strategy but fail to optimize it adaptively. <b>Tier 3</b>: Model can adaptively optimize their exploration strategy based on instant feedback, developing a nearly optimal approach.
+Most LLMs operate at Tier 1. Best-performed reasoning LLMs achieve Tier 2 in some situations. Tier 3 is the domain of human according to Charles Peirce's theory, and we have not yet identified any LLM that can achieve Tier 3 of adaptive strategy planning.
             </p>
 
-            <div id="results-carousel" class="carousel results-carousel">
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/in_depth_study/main_results_table.png" width="80%">
-                  <p> <b>Failure solution analysis:</b> As shown in the table above, the most common step-wise errors in LLM-generated solutions are logical gaps (85.0% average failure rate across models) and improper generalization from toy cases (59.7%). Less frequent, but still significant, are errors from numerical approximations (26.9%) and miscalculations (6.8%).
-                  </p>
-                </div>
-              </div>
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/in_depth_study/scaling_law_model_size_answer_acc_log_all.png" width="80%">
-                  <p> <b>Scaling laws in model size: </b>This figure shows how final-answer accuracy (which evaluates only the correctness of the final predicted answer) scales with model size for LLMs. As model size increases, we observe a steady improvement in answer accuracy, reflecting an empirical scaling law: larger models are better at inferring correct bounds and inequality relationships.
-                  </p>
-                </div>
-              </div>
 
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/in_depth_study/scaling_law_model_size_overall_acc_log_all.png" width="80%">
-                  <p> <b>Scaling laws in model size: </b>However, the trend for answer accuracy does not hold when considering overall accuracy—which requires both a correct answer and valid intermediate reasoning steps—as shown in the figure above. In this case, the scaling curve flattens, indicating that increased model size alone is insufficient to eliminate step-by-step reasoning errors.
-                  </p>
-                </div>
-              </div>
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/in_depth_study/scaling_law_max_tokens.png" width="70%">
-                  <p> <b>Scaling laws in test-time computation: </b>The figure above shows that while models like Gemini 2.5 Pro and o3 initially improve with more tokens, performance gains saturate (e.g., beyond 20K tokens). This indicates that merely increasing computational budget offers diminishing returns for achieving rigorous, step-wise correct proofs, highlighting the need for more than just longer thought processes.
-                  </p>
-                </div>
-              </div>
-
-            </div>
           </div>
         </div>
       </div>
   </section>
   <!--/ Results -->
 
-  <!-- Improvement Strategies -->
-  <section class="section" id="improvement">
-    <div class="container">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Improvement Strategies</h2>
-          <div class="content has-text-justified">
-            <p>
-              We explore four promising strategies to enhance LLM performance on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>: 
-              <b>retrieving relevant theorems as hints</b>, <b>self-improvement via critic as feedback</b>, <b>taking annotated theorems as hints</b>, and <b>retrieving training problems as demonstrations</b>. 
-            </p>
-
-            <div id="improvement-carousel" class="carousel results-carousel">
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/improvement_strategies/theorem_as_hints.png" width="65%">
-                  <p><b>Retrieving relevant theorems as hints:</b> As shown in the figure, providing one or two such theorems decreases overall accuracy for weaker models (e.g., Grok 3 mini, o3-mini, o4-mini), 
-                    likely due to misapplication or distraction by potentially irrelevant information. Conversely, stronger models like Gemini 2.5 Pro benefit from these hints, suggesting advanced reasoning is crucial to effectively use such guidance. 
-                    These results underscore the potential of theorem-guided reasoning but also highlight the critical need for more sophisticated theorem retrieval mechanisms (e.g., RAG) to reliably enhance LLM performance in inequality proving.
-                  </p>
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/improvement_strategies/self_critic.png" width="65%">
-                  <p> <b>Self-improvement via critic as feedback:</b> As the figure shows, self-critique consistently improves performance—e.g., Gemini 2.5 Pro's overall accuracy rises 
-                    from 43% to 48%. This upward trend underscores self-critique as a promising, supervision-free method to enhance the logical rigor and solution quality of LLMs in inequality reasoning.
-                  </p>
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/improvement_strategies/annotated_theorem_as_hints.png" width="65%">
-                  <p> <b>Taking annotated theorems as hints:</b> The figure reveals a consistent uplift in overall accuracy across models, with gains reaching
-                    up to 11% (e.g., for o3-mini).
-                  </p>
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/improvement_strategies/problem_as_demonstrations.png" width="65%">
-                  <p> <b>Retrieving training problems as demonstrations:</b> As shown by the overall accuracy in the figure, Grok 3 mini's performance improves from a baseline of 10% (with no demonstration problem)
-                     to 13% when provided with one such problem. However, its accuracy drops sharply to 3% when two problems are used as demonstrations. 
-                     Similarly, Gemini 2.5 Pro peaks at 53% accuracy with one demonstration problem, declining to 45% with two. o4-mini reaches 23% accuracy with one demonstration problem, 
-                     a 3% increase from its 20% baseline (without demonstrations). 
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-  <!--/ Improvement Strategies -->
-
   
-  <!-- Share Buttons -->
-  <!-- <section class="section" id="Share"> -->
 
-  <!-- <div class="column has-text-centered"> -->
-    <!-- <h2 class="title is-3 has-text-centered">Share <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>(TODO)</h2> -->
-    <!-- Social Media Share Buttons -->
-    <!-- <div class="social-share-buttons" style="margin-top: 20px;"> -->
-      <!-- Twitter Share Button -->
-      <!-- <a href="https://twitter.com/intent/tweet?text=Introducing%20OctoTools:%20An%20Agentic%20Framework%20with%20Extensible%20Tools%20for%20Complex%20Reasoning%20https://octotools.github.io" 
-         class="button is-info is-outlined"
-         target="_blank">
-        <span class="icon">
-          <i class="fab fa-twitter"></i>
-        </span>
-        <span>Share on X (Twitter)</span>
-      </a>
-      
-      LinkedIn Share Button -->
-      <!-- <a href="https://www.linkedin.com/feed/?shareActive=true&shareUrl=https%3A%2F%2Foctotools.github.io" 
-         class="button is-info is-outlined"
-         style="margin-left: 10px;"
-         target="_blank">
-        <span class="icon">
-          <i class="fab fa-linkedin"></i>
-        </span>
-        <span>Share on LinkedIn</span>
-      </a> -->
-    <!-- </div> -->
-  <!-- </div> -->
-  <!-- </section> -->
 
   <!-- BibTeX -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title is-3 has-text-centered">BibTeX</h2>
-      <pre><code>@article{sheng2025solving,
-    title={Solving Inequality Proofs with Large Language Models},
-    author={Sheng, Jiayi and Lyu, Luna and Jin, Jikai and Xia, Tony and Gu, Alex and Zou, James and Lu, Pan},
-    journal={arXiv preprint arXiv:2506.07927},
-    year={2025}
-}</code></pre>
+      <pre><code>@misc{yin2025investigatingadvancedreasoninglarge,
+      title={Investigating Advanced Reasoning of Large Language Models via Black-Box Interaction}, 
+      author={Congchi Yin and Tianyi Wu and Yankai Shu and Alex Gu and Yunhan Wang and Jun Shao and Xun Jiang and Piji Li},
+      year={2025},
+      eprint={2508.19035},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2508.19035}, 
+}
+</code></pre>
     </div>
   </section>
 
-  <section>
-    <div class="section" id="org-banners" style="display:flex">
-      <a href="https://www.stanford.edu/" target="_blank" rel="external">
-        <img class="center-block org-banner" src="assets/logos/stanford.png">
-      </a>
-      <a href="https://ai.stanford.edu/" target="_blank" rel="external">
-        <img class="center-block org-banner" src="assets/logos/ai_stanford.png">
-      </a>
-    </div>
-  </section>
+
 
 
   <!-- License -->
@@ -1091,7 +578,7 @@
               <div class="content">
                 <p>
                   This website is adapted from <a href="https://nerfies.github.io/">Nerfies</a> and <a
-                    href="https://mathvista.github.io/">MathVista</a>, licensed under a <a rel="license"
+                    href="http://ineqmath.github.io">IneqMath</a>, licensed under a <a rel="license"
                     href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
                     Commons Attribution-ShareAlike 4.0 International License</a>.
                 </p>
