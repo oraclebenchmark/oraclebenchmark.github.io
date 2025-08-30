@@ -1,5 +1,3 @@
-## OctoTools
-
 This website is adapted from [Nerfies website](https://nerfies.github.io) and [IneqMath website](https://ineqmath.github.io).
 
 ### Website License
